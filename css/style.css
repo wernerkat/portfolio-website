@@ -1,0 +1,114 @@
+/*
+Colors used:
+Primary Color (salmon): #da6f52;
+Secondary Color (orange): #e69836;
+Tertiary Color (dkolive): #556B2F
+Tertiary Color (ltgreen): #B8D596
+Mint GREEN: #F3FAE8
+Lt Yellow: #FAF4B0
+
+*/
+/*
+Fonts Used:
+Primary: Montserrat Light 300
+Secondary: Montserrat Medium 500
+Tertiary: Montserrat Bold 700
+*/
+
+
+body {
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #000000;
+}
+
+h1, h2, h3, h4  {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+h4 {
+  font-size: 1.0em;
+  font-weight: 500;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #000000;
+  text-decoration:none;
+
+
+
+  a:visited { /* visited link */
+  color: #da6f52;
+
+}
+
+}
+a:hover,
+a:focus {
+  text-decoration: underline; /* Underlining when hovering over a link */
+    font-weight: 500;
+    background-color: #F3FAE8;
+
+}
+
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #000000;
+  color: #FFFFFF; /* needed to override the default link color */
+    text-decoration: none
+  font-weight: 300;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: #000000;
+  color: #FFFFFF
+  text-decoration: underline;
+  font-weight: 500;
+  padding: 10px;
+
+
+}
+
+
+.button.contact {
+  background-color: #000000;
+  color: #F3FAE8; /* needed to override the default link color */
+  text-decoration: none
+  font-weight: 300;
+  padding: 10px;
+
+
+}
+
+.button.contact:hover {
+  background-color: #000000;
+  color: #F3FAE8
+  text-decoration: underline;
+font-weight: 500;
+padding: 10px;
+}
+
+
+footer {background-color: #F3FAE8}

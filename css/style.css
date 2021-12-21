@@ -139,6 +139,11 @@ padding-right: 5%;
   padding-top: 40px;
 }
 
+.logo {
+  max-width: 250px;
+  text-align: center;
+}
+
 nav>ul {
   list-style-type: none;
   padding: 0;

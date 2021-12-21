@@ -57,13 +57,7 @@ img {
 /* buttons and links */
 a {
   color: #000000;
-  text-decoration:none;
-
-
-
-  a:visited { /* visited link */
-  color: #da6f52;
-
+  text-decoration: none;
 }
 
 }

@@ -135,6 +135,11 @@ padding-right: 5%;
 }
 
 
+#hero h1 {
+  text-align: center;
+  /* Centers text */
+}
+
 .aboutcontainer {
   padding-top: 40px;
 }

@@ -122,6 +122,13 @@ header {
   width: 100%;
 }
 
+footer {
+  background-color: #F3FAE8;
+  padding: 20px 0;
+  padding-left: 5%;
+padding-right: 5%;
+}
+
 
 
 nav>ul {

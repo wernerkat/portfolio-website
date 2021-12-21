@@ -10,7 +10,9 @@ Primary: Montserrat Light 300
 Secondary: Montserrat Medium 500
 Tertiary: Montserrat Bold 700
 */
-
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: #ffffff;

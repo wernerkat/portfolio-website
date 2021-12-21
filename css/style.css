@@ -120,6 +120,12 @@ header {
   padding: 10px;
   position: fixed;
   width: 100%;
+main {
+  padding-top: 120.5px;
+  padding-bottom: 120.5px;
+    padding-left: 5%;
+padding-right: 5%;
+}
 }
 
 footer {

@@ -87,8 +87,7 @@ a:focus {
   text-decoration: underline;
   font-weight: 500;
   padding: 10px;
-
-
+  opacity: 0.8;
 }
 
 .button.contact {

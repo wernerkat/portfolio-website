@@ -83,7 +83,7 @@ a:focus {
 
 .button:hover {
   background-color: #000000;
-  color: #FFFFFF
+  color: #FFFFFF;
   text-decoration: underline;
   font-weight: 500;
   padding: 10px;

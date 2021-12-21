@@ -71,6 +71,10 @@ a:focus {
   background-color: #F3FAE8;
 }
 
+a:active {
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
+  font-weight: 500;
 }
 
 .button {

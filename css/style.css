@@ -129,6 +129,9 @@ footer {
 padding-right: 5%;
 }
 
+.container {
+  padding: 0 15px;
+}
 
 
 nav>ul {

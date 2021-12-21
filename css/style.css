@@ -65,9 +65,11 @@ a {
 
 a:hover,
 a:focus {
-  text-decoration: underline; /* Underlining when hovering over a link */
-    font-weight: 500;
-    background-color: #F3FAE8;
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
+  font-weight: 500;
+  background-color: #F3FAE8;
+}
 
 }
 

@@ -141,6 +141,14 @@ nav>ul>li>a {
   width: auto;
 }
 
+.hero {
+  background-color: #F3FAE8;
+  text-align: center;
+  padding: 150px 0;
+  display: inline-block;
+  width: 100%;
+}
+
 .picture-pulse__image {
   display: block;
   width: 40%;

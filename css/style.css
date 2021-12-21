@@ -113,6 +113,12 @@ a:active {
   font-weight: 500;
   padding: 10px;
 }
+
+/* sections */
+header {
+  background-color: #F3FAE8;
+  padding: 10px;
+  position: fixed;
   width: 100%;
 }
 

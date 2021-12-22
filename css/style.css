@@ -194,6 +194,15 @@ nav>ul>li>a {
 .picture-pulse__image {
   display: block;
   width: 40%;
+}
+
+
+.footer-content {
+display: inline-block;
+width: 100%;
+text-align: center;
+
+}
 
 .copyright {
 font-size: .75em;

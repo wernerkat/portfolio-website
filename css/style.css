@@ -195,5 +195,7 @@ nav>ul>li>a {
   display: block;
   width: 40%;
 
+.copyright {
+font-size: .75em;
 
 }

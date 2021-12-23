@@ -196,6 +196,10 @@ nav>ul>li>a {
   width: 40%;
 }
 
+.picture-pulse__medium-image {
+  display: block;
+  width: 70%;
+}
 
 .footer-content {
   display: inline-block;

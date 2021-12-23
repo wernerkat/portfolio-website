@@ -24,9 +24,8 @@ body {
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
   color: #000000;
-  padding: 10px 5px;
-  /* Adds 10px to top & bottom and 5px to left and right */
   margin: 10px;
+  /* Adds 10px to top & bottom */
 }
 
 h1, h2, h3, h4 {

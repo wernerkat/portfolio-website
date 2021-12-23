@@ -197,10 +197,9 @@ nav>ul>li>a {
 
 
 .footer-content {
-display: inline-block;
-width: 100%;
-text-align: center;
-
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 
 .copyright {

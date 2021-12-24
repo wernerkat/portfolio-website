@@ -24,7 +24,6 @@ body {
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
   color: #000000;
-  margin: 10px;
   /* Adds 10px to top & bottom */
 }
 
@@ -123,50 +122,6 @@ header {
   box-shadow: 1px 3px 5px 1px rgba(50, 50, 50, 0.44);
 }
 
-main {
-  padding-top: 120.5px;
-  padding-bottom: 30.5px;
-  padding-left: 1%;
-  padding-right: 1%;
-}
-
-.work {
-  padding-top: 100.5px;
-}
-
-footer {
-  background-color: #F3FAE8;
-  padding: 20px 0;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-/* Layout styling */
-.container {
-  padding: 0 15px;
-}
-
-.row {
-  margin: 25px 0;
-  /* 25px top and bottom, 0 left and right */
-}
-
-#hero h1 {
-  text-align: center;
-  /* Centers text */
-}
-
-
-.aboutcontainer {
-  padding-top: 40px;
-  width: 40%;
-}
-
-.logo {
-  max-width: 250px;
-  text-align: center;
-}
-
 nav>ul {
   list-style-type: none;
   padding: 0;
@@ -182,6 +137,61 @@ nav>ul>li>a {
   color: #000000;
   display: inline-block;
   width: auto;
+}
+
+main {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+footer {
+  background-color: #F3FAE8;
+  padding: 20px 0;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* Layout styling */
+.container {
+  padding: 0 10px;
+}
+
+.row {
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
+}
+
+.hero {
+  padding-top: 100.5px;
+}
+
+#hero h1 {
+  text-align: center;
+  /* Centers text */
+}
+
+.aboutcontainer {
+  padding-top: 150px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.portrait {
+  float: left;
+  /* image stays left of text */
+  width: 250px;
+  min-width: 150px;
+  height: auto;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+  shape-outside: circle()
+  /* text wraps image */
+}
+
+.logo {
+  max-width: 250px;
+  text-align: center;
 }
 
 .hero {
@@ -202,12 +212,27 @@ nav>ul>li>a {
   width: 70%;
 }
 
+.story {
+  background-color: White;
+  text-align: center;
+  display: block;
+  padding: 5px 20px 20px 5px;
+  box-shadow: 1px 3px 5px 1px rgba(50, 50, 50, 0.44);
+}
+
 .footer-content {
   display: inline-block;
   width: 100%;
   text-align: center;
+  padding: 20px;
 }
 
 .copyright {
   font-size: .75em;
+}
+
+@media all and (max-width: 500px) {
+  .portrait {
+    shape-outside: none;
+  }
 }

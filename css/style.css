@@ -442,7 +442,9 @@ Medium devices (640px and larger)
     display: table;
   }
 
-  .portrait {text-align: left;}
+  .portrait {
+    text-align: left;
+  }
 }
 
 /* ==============================

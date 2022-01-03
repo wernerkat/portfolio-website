@@ -171,6 +171,11 @@ footer {
   /* Centers text */
 }
 
+#about-page h3 {
+  padding-top: 60 px;
+    padding-bottom: 60 px;
+}
+
 .aboutcontainer {
   padding-top: 150px;
   margin: 0 auto;

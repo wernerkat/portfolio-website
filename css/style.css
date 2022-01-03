@@ -213,6 +213,18 @@ footer {
   width: 100%;
 }
 
+.title {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.textoverimage {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
 .picture-pulse__image {
   display: block;
   width: 40%;

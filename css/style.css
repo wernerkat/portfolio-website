@@ -407,6 +407,8 @@ Mini devices (500px and smaller)
 @media all and (max-width: 500px) {
   .portrait {
     shape-outside: none;
+    text-align: center;
+
   }
 
 

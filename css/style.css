@@ -254,6 +254,61 @@ footer {
   font-size: .75em;
 }
 
+/* ==============================
+spaceship & beam
+================================= */
+@keyframes ship-sway {
+  0% {
+    transform: rotate(.3deg);
+  }
+
+  25% {
+    transform: rotate(-.25deg);
+  }
+
+  50% {
+    transform: rotate(.5deg);
+  }
+
+  75% {
+    transform: rotate(-.5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.spaceship {
+  animation-duration: 2s;
+  animation-name: ship-sway;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes ship-sway {
+  0% {
+    transform: rotate(.3deg);
+  }
+
+  25% {
+    transform: rotate(-.25deg);
+  }
+
+  50% {
+    transform: rotate(.5deg);
+  }
+
+  75% {
+    transform: rotate(-.5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 }
 
 

@@ -270,6 +270,74 @@ animation
 }
 
 /* ==============================
+trees
+================================= */
+@keyframes tree-sway {
+  0% {
+    transform: rotate(.3deg);
+  }
+
+  25% {
+    transform: rotate(-.25deg);
+  }
+
+  50% {
+    transform: rotate(.5deg);
+  }
+
+  75% {
+    transform: rotate(-.5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.trees {
+  animation-duration: 4s;
+  animation-name: tree-sway;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+/* ==============================
+index clouds
+================================= */
+@keyframes cloud-move {
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
+}
+
+.cloud-small {
+  animation-duration: 10s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
+}
+
+.cloud-large {
+  animation: 13s cloud-move-reverse infinite alternate linear;
+}
+
+/* ==============================
 spaceship & beam
 ================================= */
 @keyframes ship-sway {

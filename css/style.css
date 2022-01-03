@@ -193,7 +193,11 @@ footer {
   padding-left: 10px;
   padding-right: 70px;
   shape-outside: circle()
-  /* text wraps image */
+    /* text wraps image */
+}
+
+.resumebutton {
+  text-align: center;
 }
 
 .logo {

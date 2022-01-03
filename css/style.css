@@ -236,3 +236,88 @@ footer {
     shape-outside: none;
   }
 }
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+
+  /* for 2 column layout */
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+/* ==============================
+ipad devices (768px and larger)
+================================= */
+@media only screen and (min-width: 768px) {
+  header {
+    text-align: unset;
+    padding-top: 10px;
+    padding-left: 25px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    padding-right: 35px;
+  }
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+
+  /* for 2 column layout */
+  .col-md-7 {
+    width: 58.33%;
+  }
+
+  .col-md-5 {
+    width: 41.66%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+/* ==============================
+Largeish devices (1200px or larger)
+================================= */
+@media only screen and (min-width: 1200px) {
+
+  /* for container class max width 1200 */
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {}

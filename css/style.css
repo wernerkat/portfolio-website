@@ -157,7 +157,8 @@ footer {
 }
 
 .row {
-  margin: 25px 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
   /* 25px top and bottom, 0 left and right */
 }
 

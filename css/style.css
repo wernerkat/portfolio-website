@@ -417,12 +417,8 @@ Mini devices (500px and smaller)
   .portrait {
     shape-outside: none;
     text-align: center;
-
   }
-
-
 }
-
 
 /* ==============================
 Medium devices (640px and larger)

@@ -408,7 +408,10 @@ Mini devices (500px and smaller)
   .portrait {
     shape-outside: none;
   }
+
+
 }
+
 
 /* ==============================
 Medium devices (640px and larger)

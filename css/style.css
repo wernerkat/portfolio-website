@@ -191,6 +191,7 @@ footer {
   margin-right: 20px;
   padding-top: 20px;
   padding-left: 10px;
+  padding-right: 70px;
   shape-outside: circle()
   /* text wraps image */
 }

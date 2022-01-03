@@ -109,6 +109,7 @@ a:active {
   color: #Ffffff;
   text-decoration: underline;
   padding: 10px;
+  opacity: 0.7;
 }
 
 /* sections */

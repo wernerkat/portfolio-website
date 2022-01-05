@@ -275,10 +275,12 @@ animation
   height: auto;
 }
 
+
+
 /* ==============================
-trees
+spaceship & beam
 ================================= */
-@keyframes tree-sway {
+@keyframes ship-sway {
   0% {
     transform: rotate(.3deg);
   }
@@ -300,30 +302,6 @@ trees
   }
 }
 
-.trees {
-  animation-duration: 4s;
-  animation-name: tree-sway;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-/* ==============================
-index clouds
-================================= */
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-
-  to {
-    transform: translate(200px, 50px);
-  }
-}
-
-.cloud-small {
-  animation-duration: 10s;
-  animation-name: cloud-move;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;

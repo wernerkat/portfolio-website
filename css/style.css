@@ -368,7 +368,7 @@ spaceship & beam
   }
 }
 
-.spaceship {
+.lightbeam {
   animation-duration: 2s;
   animation-name: beam-wiggle;
   animation-iteration-count: infinite;

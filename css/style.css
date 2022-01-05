@@ -329,23 +329,6 @@ index clouds
   animation-timing-function: linear;
 }
 
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-
-  to {
-    transform: translate(100px, 48px);
-  }
-}
-
-.cloud-large {
-  animation: 13s cloud-move-reverse infinite alternate linear;
-}
-
-/* ==============================
-spaceship & beam
-================================= */
 @keyframes beam-wiggle {
   0% {
     transform: rotate(.3deg);

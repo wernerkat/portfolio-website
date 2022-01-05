@@ -346,7 +346,7 @@ index clouds
 /* ==============================
 spaceship & beam
 ================================= */
-@keyframes ship-sway {
+@keyframes beam-wiggle {
   0% {
     transform: rotate(.3deg);
   }

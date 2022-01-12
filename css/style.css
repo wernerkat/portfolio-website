@@ -336,8 +336,6 @@ animation
   height: auto;
 }
 
-
-
 /* ==============================
 spaceship & beam
 ================================= */
@@ -414,7 +412,6 @@ spaceship & beam
     fill: #c3bbea;
   }
 }
-
 
 .lightbeam polygon {
   animation-duration: 3s;

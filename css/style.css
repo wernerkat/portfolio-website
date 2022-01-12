@@ -136,6 +136,7 @@ header {
 nav>ul {
   list-style-type: none;
   padding: 0;
+  margin:0;
   /* remove bullets and padding from list */
 }
 

@@ -146,7 +146,38 @@ nav>ul>li>a {
   display: inline-block;
   width: auto;
 }
+.navtoggle li:not(:last-child) {
+  display: none;
+}
 
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 10px;
+   top: 2px;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px dashed;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
 
 main {
   margin-left: 0px;

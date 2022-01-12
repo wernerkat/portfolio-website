@@ -280,6 +280,31 @@ footer {
   background-color: #FFFFFF;
   text-align: center;
   padding: 150px 0;
+
+/* footer */
+.footer-content {
+  display: flex;
+  align-content: space-between;
+}
+
+.footer-content__item {
+  flex: 1 0 200px;
+}
+
+.footer-content:last-child {
+  text-align: right;
+}
+
+.copyright {
+  font-size: .75em;
+  text-align: left;
+}
+
+.iconspace {
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
   display: inline-block;
   width: 100%;
 }

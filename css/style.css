@@ -355,6 +355,33 @@ orbit containers
   background-color: #ffffff;
 }
 
+.flexbox-item {
+  flex: 1 0 200px;
+  background-color: #ffffff;
+  margin: 50px;
+  width: 200px;
+}
+
+.flexbox-item 1 {
+  min-height 100px;
+}
+
+.flexbox-item:last-child {
+  flex-grow: 6;
+}
+
+.flexbox-item 2 {
+  display: flex;
+}
+
+.flexbox-container-background {
+  display: flex;
+  padding-top: 20px;
+  background-color: #fff;
+  justify-content: space-evenly;
+}
+
+.flexbox-item-background:last-child {}
 
 .orbitvideo {
   display: flex;

@@ -317,7 +317,11 @@ footer {
 /* pulse case study */
 .pulsesection {
   display: inline-block;
-  width: 100%;
+  max-width: 960px;
+  margin-top: 80px;
+  text-align: left;
+  add-margin: auto;
+  justify-content: center;
 }
 
 .pulsecontainer {

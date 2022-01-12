@@ -326,13 +326,9 @@ footer {
   text-align: center;
 }
 
-.story {
-  background-color: #FFFFFF;
+.pulsecaption {
   text-align: center;
-  display: block;
-  padding: 50px 20px 20px 20px;
-  margin-left: 0px;
-  margin-right: 10px;
+  padding-top: 50px;
 }
 
 .footer-content {

@@ -220,6 +220,22 @@ footer {
   /* Centers text */
 }
 
+.logo {
+  max-width: 100px;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+.hero {
+  background-color: #E5FAE6;
+  text-align: center;
+  padding: 150px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+/* about page */
 #about-page h3 {
   padding-top: 20px;
   padding-bottom: 10px;

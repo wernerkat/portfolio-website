@@ -355,6 +355,11 @@ orbit containers
   background-color: #ffffff;
 }
 
+.notes {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
 
 .alienimage {
   max-width: 70%;

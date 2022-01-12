@@ -355,6 +355,15 @@ orbit containers
   background-color: #ffffff;
 }
 
+
+.orbitvideo {
+  display: flex;
+  justify-content: center;
+}
+
+#video {
+  width: 300px;
+  max-width: 50vw;
 }
 
 .hypo {

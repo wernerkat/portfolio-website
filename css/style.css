@@ -338,11 +338,13 @@ footer {
   padding-top: 50px;
 }
 
-.footer-content {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  padding: 20px;
+/* ==============================
+orbit containers
+================================= */
+.flexbox-container {
+  display: flex;
+  padding-top: 100px;
+  background-color: #ffffff;
 }
 
 .copyright {

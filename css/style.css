@@ -270,9 +270,10 @@ footer {
   padding-top: 40px;
 }
 
-.logo {
-  max-width: 250px;
+.title {
   text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .hero {

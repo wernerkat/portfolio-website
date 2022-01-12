@@ -424,6 +424,40 @@ spaceship & beam
   animation-timing-function: linear;
 }
 
+
+/* alien keyframes */
+
+@keyframes nose-wiggle {
+  0% {
+    transform: rotate(.2deg);
+  }
+
+  25% {
+    transform: rotate(-.2deg);
+  }
+
+  50% {
+    transform: rotate(.1deg);
+  }
+
+  75% {
+    transform: rotate(-.1deg);
+  }
+
+  100% {
+    transform: rotate(.1deg);
+  }
+}
+
+.nose {
+  animation-duration: 2s;
+  animation-name: nose-wiggle;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+
 /* ==============================
 Mini devices (500px and smaller)
 ================================= */

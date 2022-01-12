@@ -279,7 +279,11 @@ footer {
 .story {
   background-color: #FFFFFF;
   text-align: center;
-  padding: 150px 0;
+  display: block;
+  padding: 50px 20px 20px 20px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
 
 /* footer */
 .footer-content {

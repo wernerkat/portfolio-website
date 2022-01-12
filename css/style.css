@@ -292,12 +292,13 @@ footer {
 
 .picture-pulse__image {
   display: block;
-  width: 40%;
+  width: 90%;
 }
 
 .picture-pulse__medium-image {
   display: block;
-  width: 70%;
+  width: 95%;
+  text-align: center;
 }
 
 .story {

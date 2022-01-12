@@ -356,6 +356,12 @@ orbit containers
 }
 
 
+.commentary {
+  color: #6045BF;
+  font-size: 1.20em;
+  font-weight:600;
+}
+
 .orbitlogobig {
   max-width: 50%;
 }

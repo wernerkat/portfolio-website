@@ -305,6 +305,13 @@ footer {
   padding-left: 7px;
 }
 
+/* pulse table */
+.th, td {
+  padding: 30px;
+}
+
+/* pulse case study */
+.pulsesection {
   display: inline-block;
   width: 100%;
 }

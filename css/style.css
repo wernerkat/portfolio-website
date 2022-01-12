@@ -355,6 +355,11 @@ orbit containers
   background-color: #ffffff;
 }
 
+
+.orbitlogobig {
+  max-width: 50%;
+}
+
 .notes {
   padding-top: 0px;
   padding-bottom: 20px;

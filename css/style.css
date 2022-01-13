@@ -127,7 +127,7 @@ a:active {
 /* sections */
 header {
   background-color: #E5FAE6;
-  position: fixed;
+  position:fixed;
   width: 100%;
   /* a fixed header messes up margin */
   box-shadow: 1px 3px 5px 1px rgba(50, 50, 50, 0.44);

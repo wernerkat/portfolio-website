@@ -635,7 +635,13 @@ ipad devices (767px and smaller)
   .flexbox-container {
     display: grid;
   }
-
+  nav {
+    width: auto;
+    float: right;
+    padding-right: 35px;
+    padding-top: 10px;
+  }
+}
 }
 
 /* ==============================

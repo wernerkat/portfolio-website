@@ -658,6 +658,7 @@ ipad devices (768px and larger)
     width: auto;
     float: right;
     padding-right: 35px;
+    padding-top: 1px;
   }
 }
 

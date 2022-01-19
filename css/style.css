@@ -431,6 +431,10 @@ footer {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
+.aboutline {
+  margin-top: 50px;
+  color: #E5FAE6;
+}
 
 .personallink{
   text-decoration: underline;

@@ -245,6 +245,11 @@ nav>ul>li>a {
   display: inline-block;
   width: auto;
 }
+
+.navigation a:hover {}
+
+.navigation a:active {}
+
 .navtoggle li:not(:last-child) {
   display: none;
 }

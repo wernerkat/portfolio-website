@@ -524,7 +524,7 @@ orbit containers
 ================================= */
 .flexbox-container {
   display: flex;
-  padding-top: 100px;
+  padding-top: 50px;
   background-color: #ffffff;
 }
 

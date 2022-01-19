@@ -98,6 +98,20 @@ a:active {
   color: #11827E;
 }
 
+.pulselink:hover {
+  text-decoration: underline;
+}
+
+.alocallink {
+  font-weight: 500;
+  color: #3f5ca7;
+  text-align: center;
+}
+
+.alocallink:hover {
+  text-decoration: underline;
+}
+
 .button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */

@@ -648,14 +648,14 @@ ipad devices (767px and smaller)
 @media all and (max-width: 767px) {
   .flexbox-container {
     display: grid;
+
+    nav {
+      width: auto;
+      float: right;
+      padding-right: 35px;
+      padding-top: 10px;
+    }
   }
-  nav {
-    width: auto;
-    float: right;
-    padding-right: 35px;
-    padding-top: 10px;
-  }
-}
 }
 
 /* ==============================

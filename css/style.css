@@ -333,7 +333,14 @@ footer {
 }
 
 #hero h1 {
-  text-align: center;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* Centers text */
+}
+
+#hero p {
+  text-align: left;
   padding-left: 20px;
   padding-right: 20px;
   /* Centers text */

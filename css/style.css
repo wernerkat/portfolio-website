@@ -133,7 +133,7 @@ a:active {
 .button.contact:hover {
   background-color: #000000;
   color: #Ffffff;
-  text-decoration: underline;
+  /*text-decoration: underline ;*/
   padding: 10px;
   opacity: 0.7;
 }

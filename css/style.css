@@ -672,9 +672,7 @@ spaceship & beam
   animation-timing-function: linear;
 }
 
-
 /* alien keyframes */
-
 @keyframes nose-wiggle {
   0% {
     transform: rotate(.2deg);
@@ -704,7 +702,6 @@ spaceship & beam
   animation-direction: alternate;
   animation-timing-function: linear;
 }
-
 
 /* ==============================
 Mini devices (500px and smaller)

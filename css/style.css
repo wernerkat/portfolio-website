@@ -280,7 +280,7 @@ nav>ul>li>a {
   padding-top: 20px;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
 }
 
@@ -294,7 +294,7 @@ nav>ul>li>a {
   border-top: 1px solid;
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 

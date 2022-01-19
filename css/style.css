@@ -753,9 +753,8 @@ spaceship & beam
 /* ==============================
 Mini devices (500px and smaller)
 ================================= */
-@media all and (max-width: 500px) {
+@media all and (max-width: 350px) {
   .portrait {
-    shape-outside: none;
     text-align: center;
   }
 }

@@ -25,13 +25,13 @@
     <div>
       <div class="navtoggle" id="myNavtoggle">
         <a href="index.html">
-          <img src="img/mylogo2.svg" alt="logo of name kat" class="logo">
+          <img src="img/mylogo3.svg" alt="logo of name kat" class="logo">
         </a>
         <nav>
           <ul class="navigation">
-            <li><a href="index.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Connect</a></li>
+            <li><a class="current current__active" href="index.html">work</a></li>
+            <li><a class="current" href="about.html">about</a></li>
+    <li><a class="current" target="_blank" href="files/resume.pdf">resume</a></li>
             <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
           </ul>
         </nav>
@@ -41,17 +41,22 @@
   <!--begin hero-->
   <main>
     <div class="hero">
-      <h1>Hey, I'm Kat! a Colorado-based UI/UX Designer.</h1>
-      <p>I’m currently seeking design positions. Let’s make something fun together! </p>
+      <h1>Hi from Denver! I'm a visual designer specializing in UI/UX.</h1>
+      <p class="herotext"><strong>I enjoy making products that constantly evolve with their users.</strong></p>
       <div class="row">
-        <a href="mailto:wernerkat@gmail.com" class="button contact">Email Me</a>
+      Check out at my work!
       </div>
+      <div class="arrowcontainer">
+    <a data-scroll href="#full">
+      <div class="arrow"></div>
+    </a>
+  </div>
     </div>
     <!--end hero-->
     <!--begin my work-->
     <div class="container">
-      <div class="title">
-        <h3>Explore My Work</h3>
+      <div id="title" class="title">
+        <h1 id="full">Projects</h1>
       </div>
     </div>
 
@@ -66,10 +71,10 @@
         </div><!-- end first column -->
         <div class="col-md-6 col-lg-5">
           <!-- open second column (used for text) -->
-          <h4>Pulse App</h4>
-          <p>Finding access to healthcare and one's personal health data is messy and time consuming. Pulse simplifies the process to find in network health care and goes beyond to connect users to wellness caregivers too.
+          <h4>Pulse mobile app</h4>
+          <p>Streamline the process of finding health or wellness care and keep your health data where you can see it.
           </p>
-          <a href="pulse.html" class="button">Learn More</a>
+          <a href="pulse.html" class="projectbutton">explore</a>
         </div>
         <!-- end second column -->
       </div>
@@ -86,10 +91,10 @@
         <!-- end first column -->
         <div class="col-md-6">
           <!-- open second column (used for text) -->
-          <h4>Alocal App</h4>
-          <p>Alocal makes expanding vocabulary in a foreign language convenient and personalized. Users benefit from short, targeted study sessions, and a personalized library to keep the words they study relevant to them.
+          <h4>Alocal mobile app</h4>
+          <p>Learn new foreign language vocabulary words through focused study sessions and a personalized library to keep the study words relevant.
           </p>
-          <a href="alocal.html" class="button">Learn More</a>
+          <a href="alocal.html" class="projectbutton">explore</a>
         </div>
         <!-- end second column -->
       </div>
@@ -106,10 +111,10 @@
         <!-- end first column -->
         <div class="col-md-6">
           <!-- open second column (used for text) -->
-          <h4>Orbit App</h4>
-          <p>Books open doors for children. With Orbit, parents can find books for free and get their kids involved in trading and giving books to kids in their neighborhood.
+          <h4>Orbit mobile app</h4>
+          <p>Help children get their hands on free books and trade or gift books to others in your neighborhood.
           </p>
-          <a href="orbit.html" class="button">Learn More</a>
+          <a href="orbit.html" class="projectbutton">explore</a>
         </div>
         <!-- end second column -->
       </div>
@@ -117,12 +122,11 @@
       <!-- end work -->
   </main>
 
-  <footer id="connect">
+  <footer class="footer" id="connect">
     <div class="footer-content">
       <div class=" footer-content__item copyright">
-        <p>Copyright Kathryn Werner 2021</p>
+        <p>Copyright Kathryn Werner 2022</p>
       </div>
-
       <div class="icon footer-content__item">
         <!--Social Media Layout and Placeholders-->
         <a href="https://www.behance.net/katwerner" class="iconspace" target="_blank">

@@ -510,7 +510,7 @@ orbit containers
   width: 200px;
 }
 
-.flexbox-item 1 {
+.flexbox-item1 {
   min-height 100px;
 }
 
@@ -518,7 +518,7 @@ orbit containers
   flex-grow: 6;
 }
 
-.flexbox-item 2 {
+.flexbox-item2 {
   display: flex;
 }
 

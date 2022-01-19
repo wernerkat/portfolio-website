@@ -406,13 +406,12 @@ footer {
 .portrait {
   float: left;
   /* image stays left of text */
-  max-width: 450px;
+  max-width: 350px;
   height: auto;
   margin-right: 10px;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  shape-outside: circle()
     /* text wraps image */
 }
 
@@ -421,7 +420,7 @@ footer {
   flex-direction: column;
 }
 
-.resumebutton {
+.title {
   text-align: center;
   padding-top: 40px;
 }

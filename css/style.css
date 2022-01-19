@@ -68,8 +68,18 @@ a {
   /* Underlining when hovering over a link */
 }
 
-a:active {
+.current__active {
   text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.4em;
+  /* Underlining when hovering over a link */
+}
+
+.current {
+  font-weight: 500;
+}
+
+a:active {
   /* Underlining when hovering over a link */
   font-weight: 300;
 }

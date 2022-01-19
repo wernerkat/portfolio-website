@@ -61,9 +61,10 @@ a {
   text-decoration: none;
 }
 
-a:hover,
-a:focus {
+.current:hover {
   text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.4em;
   /* Underlining when hovering over a link */
 }
 

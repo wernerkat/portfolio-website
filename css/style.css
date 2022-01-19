@@ -642,7 +642,7 @@ nav>ul>li {
   display: none;
 }
 
-/* ==============================
+  /* ==============================
 ipad devices (767px and smaller)
 ================================= */
   @media all and (max-width: 767px) {

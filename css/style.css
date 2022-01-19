@@ -524,6 +524,45 @@ orbit containers
   text-align: left;
   color: #6045BF;
 }
+
+.quote {}
+
+.orbitcolor {
+  padding-top: 20px;
+}
+
+/* ==============================
+alocal style
+================================= */
+.alocalimage {
+  max-width: 600px;
+  padding-top: 90px;
+  margin: auto;
+  display: block;
+}
+
+.alocalsection {
+  display: inline-block;
+  max-width: 960px;
+  margin-top: 50px;
+  text-align: left;
+  margin: auto;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.alocalcontainer {
+  text-align: center;
+  margin-left: 5%;
+  margin-left: 5%;
+}
+
+.alocalline {
+  opacity: 30%;
+  margin-top: 80px;
+}
+
 /* ==============================
 form
 ================================= */

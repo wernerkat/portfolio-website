@@ -466,15 +466,14 @@ footer {
   max-width: 960px;
   margin-top: 80px;
   text-align: left;
-  add-margin: auto;
+  margin: auto;
   justify-content: center;
-
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .pulsecontainer {
   text-align: center;
-  margin-left: 7%;
-  margin-left: 7%;
 
 }
 

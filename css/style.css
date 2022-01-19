@@ -397,9 +397,10 @@ footer {
 }
 
 .aboutcontainer {
+  max-width: 1200px;
   padding-top: 80px;
-  margin: 0 auto;
   text-align: left;
+  display: block;
 }
 
 .portrait {

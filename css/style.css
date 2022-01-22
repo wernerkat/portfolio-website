@@ -889,6 +889,12 @@ ipad devices (767px and smaller)
     .flexbox-container {
       display: grid;
     }
+    /* orbit flexbox stack */
+      .flexbox-item {
+        display: grid;
+        width: 100%;
+      }
+
 
     nav {
       width: auto;
@@ -902,7 +908,8 @@ ipad devices (767px and smaller)
     .port-div{
       flex-basis: 100%;
     }
-  }
+
+}
 
 
 /* ==============================

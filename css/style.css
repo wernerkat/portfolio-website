@@ -207,12 +207,18 @@ a:active {
   z-index: 1;
   margin-bottom: 20px
 
+
 }
 
 .emailbutton:hover {
   background-color: #eeeb7a;
   border-bottom-width: 0;
   top: 0.2em;
+}
+
+.email {
+  text-align: center;
+  padding-top: 4%;
 }
 
 

@@ -349,23 +349,7 @@ nav>ul>li>a {
   display: block;
 }
 
-.hero {
-  padding-top: 100.5px;
-}
 
-#hero h1 {
-  text-align: left;
-  padding-left: 20px;
-  padding-right: 20px;
-  /* Centers text */
-}
-
-#hero p {
-  text-align: left;
-  padding-left: 20px;
-  padding-right: 20px;
-  /* Centers text */
-}
 
 .logo {
   max-width: 200px;

@@ -439,9 +439,9 @@ nav>ul>li>a {
 } */
 
 .portrait {
-  float: left;
+  /* float: left; */
   /* image stays left of text */
-  max-width: 350px;
+max-width: 350px;
   height: auto;
   margin-right: 10px;
   padding-top: 20px;

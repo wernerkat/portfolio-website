@@ -51,6 +51,11 @@ h4 {
   margin-top: 0
 }
 
+main {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 img {
   width: 100%;
 }

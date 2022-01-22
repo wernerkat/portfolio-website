@@ -86,7 +86,7 @@ a {
 
 a:active {
   /* Underlining when hovering over a link */
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .orbitlink {

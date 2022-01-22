@@ -515,10 +515,6 @@ max-width: 350px;
   padding-left: 7px;
 }
 
-/* pulse table */
-.th, td {
-  padding: 30px;
-}
 
 /* pulse case study */
 .pulsesection {
@@ -670,13 +666,6 @@ alocal style
   margin-top: 80px;
 }
 
-/* ==============================
-form
-================================= */
-.contact-form {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
 
 /* ==============================
 animation

@@ -99,8 +99,9 @@ a:active {
 }
 
 .pulselink {
-  font-weight: 500;
-  color: #11827E;
+  font-weight: 700;
+  color: #ed5d54;
+  text-align: left;
 }
 
 .pulselink:hover {

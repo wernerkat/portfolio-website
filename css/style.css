@@ -64,6 +64,7 @@ img {
 a {
   color: #000000;
   text-decoration: none;
+    background-color: transparent;
 }
 
 .current:hover {
@@ -91,6 +92,7 @@ a:active {
 
 .orbitlink {
   font-weight: 700;
+  background-color: #FFFFFF;
   color: #ed5d54;
 }
 
@@ -101,6 +103,7 @@ a:active {
 .pulselink {
   font-weight: 700;
   color: #ed5d54;
+  background-color: #FFFFFF;
   text-align: left;
 }
 
@@ -111,6 +114,7 @@ a:active {
 .alocallink {
   font-weight: 700;
   color: #ed5d54;
+  background-color: #FFFFFF;
   text-align: center;
 }
 
@@ -174,10 +178,7 @@ a:active {
   border-radius: 0.3em;
   border-bottom: 0.25em solid #9DB99F;
   box-shadow: 0 2px 3px #ccc;
-  -moz-transition: 0.1s;
-  -webkit-transition: 0.1s;
   transition: 0.1s;
-  box-shadow: 3px 2px 3px #ccc;
   position: relative;
   z-index: 1;
 }
@@ -188,39 +189,10 @@ a:active {
   top: 0.2em;
 }
 
-
-.emailbutton {
-  display: inline-block;
-  background-color: #fdabaa;
-  font-size: .9em;
-  font-weight: 700;
-  padding: .5em 1.4em;
-  text-decoration: none;
-  border-radius: 0.3em;
-  border-bottom: 0.25em solid #ed5d54;
-  box-shadow: 0 2px 3px #ccc;
-  -moz-transition: 0.1s;
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
-  box-shadow: 3px 2px 3px #ccc;
-  position: relative;
-  z-index: 1;
-  margin-bottom: 20px
-
-
-}
-
-.emailbutton:hover {
-  background-color: #eeeb7a;
-  border-bottom-width: 0;
-  top: 0.2em;
-}
-
 .email {
   text-align: center;
   padding-top: 4%;
 }
-
 
 .projectbutton {
   display: inline-block;
@@ -232,10 +204,7 @@ a:active {
   border-radius: 0.3em;
   border-bottom: 0.25em solid #9DB99F;
   box-shadow: 0 2px 3px #ccc;
-  -moz-transition: 0.1s;
-  -webkit-transition: 0.1s;
   transition: 0.1s;
-  box-shadow: 3px 2px 3px #ccc;
   position: relative;
   z-index: 1;
 }
@@ -262,7 +231,6 @@ nav>ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  margin-right: 0px;
   /* remove bullets and padding from list */
 }
 
@@ -290,10 +258,6 @@ nav>ul>li>a {
   top: 2px;
   font-size: 20px;
   padding-top: 20px;
-}
-
-.navtoggle.responsive li {
-  display: block;
 }
 
 .navtoggle.responsive nav {
@@ -330,6 +294,7 @@ nav>ul>li>a {
 .img-content {
   flex: 2;
 }
+
 .about-content {
   flex: 1;
   margin-top: 30px;
@@ -349,8 +314,6 @@ nav>ul>li>a {
   display: block;
 }
 
-
-
 .logo {
   max-width: 200px;
   text-align: center;
@@ -369,10 +332,7 @@ nav>ul>li>a {
   font-size: 1.6em;
 }
 
-
-
 /* arrow */
-
 .arrow {
   box-sizing: border-box;
   height: 4.5vw;
@@ -397,7 +357,6 @@ nav>ul>li>a {
   height: 18vh;
 }
 
-
 #full {
   height: 4vh;
   text-align: left;
@@ -412,14 +371,16 @@ nav>ul>li>a {
   color: #fff;
   font-size: 50px;
   text-shadow: -1px 1px 2px #000,
-				  1px 1px 2px #000,
-				  1px -1px 0 #000,
-				  -1px -1px 0 #000;
+    1px 1px 2px #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+  background-color: #ffffff;
 }
 
 .vd:hover,
 .highlight:hover {
   color: #E5FAE6;
+  background-color: #ffffff;
 }
 
 /* about page */
@@ -428,23 +389,16 @@ nav>ul>li>a {
   padding-bottom: 10px;
 }
 
-/* .aboutcontainer {
-  display: flex;
-  margin: 0 auto;
-  max-width: 100vw;
-  padding-top: 80px;
-} */
-
 .portrait {
   /* float: left; */
   /* image stays left of text */
-max-width: 350px;
+  max-width: 350px;
   height: auto;
   margin-right: 10px;
   padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
-    /* text wraps image */
+  /* text wraps image */
 }
 
 .port-div {
@@ -452,22 +406,20 @@ max-width: 350px;
   flex-direction: column;
 }
 
-
-
 .aboutline {
   margin-top: 50px;
   margin-bottom: 75px;
   color: #E5FAE6;
+  background-color: #ffffff;
 }
 
-.personallink{
+.personallink {
   text-decoration: underline;
   color: #ed5d54;
-
+  background-color: #ffffff;
 }
 
 .story {
-  background-color: #FFFFFF;
   text-align: center;
   display: block;
   padding: 50px 20px 20px 20px;
@@ -476,14 +428,12 @@ max-width: 350px;
 }
 
 /* footer */
-
-.footer{
+.footer {
   background-color: #E5FAE6;
   padding-top: 30px;
   padding-left: 5%;
   padding-right: 5%;
   margin-top: 3%;
-
 }
 
 .footer-content {
@@ -509,14 +459,12 @@ max-width: 350px;
   padding-left: 7px;
 }
 
-
 /* pulse case study */
 .pulsesection {
   display: inline-block;
   max-width: 960px;
   margin-top: 80px;
   text-align: left;
-  margin: auto;
   justify-content: center;
   margin-left: 5%;
   margin-right: 5%;
@@ -524,7 +472,6 @@ max-width: 350px;
 
 .pulsecontainer {
   text-align: center;
-
 }
 
 .picture-pulse__image {
@@ -543,23 +490,19 @@ max-width: 350px;
   padding-top: 50px;
 }
 
-
 /* ==============================
 orbit containers
 ================================= */
 .flexbox-container {
   display: flex;
   padding-top: 50px;
-  background-color: #ffffff;
 }
 
 .flexbox-item {
   flex: 1 0 200px;
-  background-color: #ffffff;
   margin: 50px;
   width: 200px;
 }
-
 
 .flexbox-item:last-child {
   flex-grow: 6;
@@ -572,7 +515,6 @@ orbit containers
 .flexbox-container-background {
   display: flex;
   padding-top: 20px;
-  background-color: #fff;
   justify-content: space-evenly;
 }
 
@@ -590,6 +532,7 @@ orbit containers
 
 .hypo {
   color: #767676;
+  background-color: #FFFFFF;
   font-size: 1.50em;
 }
 
@@ -597,6 +540,7 @@ orbit containers
   color: #6045BF;
   font-size: 1.20em;
   font-weight: 600;
+  background-color: #ffffff;
 }
 
 .orbitlogobig {
@@ -621,9 +565,8 @@ orbit containers
   padding-top: 40px;
   text-align: left;
   color: #6045BF;
+  background-color: #ffffff;
 }
-
-.quote {}
 
 .orbitcolor {
   padding-top: 20px;
@@ -644,7 +587,6 @@ alocal style
   max-width: 960px;
   margin-top: 50px;
   text-align: left;
-  margin: auto;
   justify-content: center;
   margin-left: 5%;
   margin-right: 5%;
@@ -652,15 +594,12 @@ alocal style
 
 .alocalcontainer {
   text-align: center;
-  margin-left: 5%;
-  margin-left: 5%;
 }
 
 .alocalline {
   opacity: 30%;
   margin-top: 80px;
 }
-
 
 /* ==============================
 animation
@@ -678,68 +617,67 @@ animation
   height: auto;
 }
 
-
 /* ==============================
 spaceship & beam
 ================================= */
-@keyframes ship-sway {
-  0% {
-    transform: rotate(.3deg);
-  }
-
-  25% {
-    transform: rotate(-.25deg);
-  }
-
-  50% {
-    transform: rotate(.5deg);
-  }
-
-  75% {
-    transform: rotate(-.5deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
+/* @keyframes ship-sway { */
+0% {
+  transform: rotate(.3deg);
 }
 
-.spaceship {
-  animation-duration: 2s;
-  animation-name: ship-sway;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
+25% {
+  transform: rotate(-.25deg);
 }
 
-@keyframes beam-wiggle {
-  0% {
-    transform: rotate(.3deg);
-  }
-
-  25% {
-    transform: rotate(-.25deg);
-  }
-
-  50% {
-    transform: rotate(.5deg);
-  }
-
-  75% {
-    transform: rotate(-.5deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
+50% {
+  transform: rotate(.5deg);
 }
+
+75% {
+  transform: rotate(-.5deg);
+}
+
+100% {
+  transform: rotate(0deg);
+}
+/* }
+
+/* .spaceship { */
+/* animation-duration: 2s; */
+/* animation-name: ship-sway; */
+/* animation-iteration-count: infinite; */
+/* animation-direction: alternate; */
+/* animation-timing-function: linear; */
+/* } */
+
+/* @keyframes beam-wiggle { */
+/* 0% { */
+  /* transform: rotate(.3deg); */
+
+
+25% {
+  /* transform: rotate(-.25deg); */
+}
+
+50% {
+  /* transform: rotate(.5deg); */
+}
+
+75% {
+  /* transform: rotate(-.5deg); */
+}
+
+100% {
+  /* transform: rotate(0deg); */
+/ */
+/* } */
 
 /* .lightbeam { */
-  /* animation-duration: 2s; */
-  /* animation-name: beam-wiggle; */
-  /* animation-iteration-count: infinite; */
-  /* animation-direction: alternate; */
-   /* animation-timing-function: linear; */
+/* animation-duration: 2s; */
+/* animation-name: beam-wiggle; */
+/* animation-iteration-count: infinite; */
+/* animation-direction: alternate; */
+/* animation-timing-function: linear; */
 }
 
 /* @keyframes lightbeam-color {
@@ -794,17 +732,17 @@ spaceship & beam
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+
 /* ==============================
 rainbow background
 ================================= */
-
 /* ====
 .hero {
-    animation: colorchange 8s; /* animation-name followed by duration in seconds*/ /* you could also use milliseconds (ms) or something like 2.5s */
-  /* animation-timing-function: ease-in-out; */
-    /* animation-iteration-count: infinite; */
-    /* animation-play-state: running; */
-
+    animation: colorchange 8s; /* animation-name followed by duration in seconds*/
+/* you could also use milliseconds (ms) or something like 2.5s */
+/* animation-timing-function: ease-in-out; */
+/* animation-iteration-count: infinite; */
+/* animation-play-state: running; */
 /*
 @keyframes colorchange {
     0% { background: #E5FAE6; }
@@ -876,35 +814,35 @@ Medium devices (640px and larger) NAVIGATION
   }
 }
 
-  /* ==============================
+/* ==============================
 ipad devices (767px and smaller)
 ================================= */
-  @media all and (max-width: 767px) {
-    .flexbox-container {
-      display: grid;
-    }
-    /* orbit flexbox stack */
-      .flexbox-item {
-        display: grid;
-        width: 100%;
-      }
+@media all and (max-width: 767px) {
+  .flexbox-container {
+    display: grid;
+  }
 
+  /* orbit flexbox stack */
+  .flexbox-item {
+    display: grid;
+    width: 100%;
+  }
 
-    nav {
-      width: auto;
-      float: right;
-      padding-right: 35px;
-      padding-top: 10px;
-    }
+  nav {
+    width: auto;
+    float: right;
+    padding-right: 35px;
+    padding-top: 10px;
+  }
 
-.about-container { flex-wrap: wrap;  }
+  .about-container {
+    flex-wrap: wrap;
+  }
 
-    .port-div{
-      flex-basis: 100%;
-    }
-
+  .port-div {
+    flex-basis: 100%;
+  }
 }
-
 
 /* ==============================
 ipad devices (768px and larger)

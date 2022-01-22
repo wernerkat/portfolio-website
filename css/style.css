@@ -375,28 +375,31 @@ nav>ul>li>a {
 }
 
 /* arrow */
+
 .arrow {
   box-sizing: border-box;
-  height: 4vw;
-  width: 4vw;
+  height: 4.5vw;
+  width: 4.5vw;
   border-style: solid;
   border-color: #000000;
   border-width: 0px 1px 1px 0px;
   transform: rotate(45deg);
   transition: border-width 150ms ease-in-out;
+  margin: 0;
 }
 
 .arrow:hover {
-  border-bottom-width: 4px;
-  border-right-width: 4px;
+  border-bottom-width: 2.5px;
+  border-right-width: 2.5px;
 }
 
 .arrowcontainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30vh;
+  height: 18vh;
 }
+
 
 #full {
   height: 10vh;

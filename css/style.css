@@ -600,7 +600,11 @@ orbit containers
 }
 
 .orbitlogobig {
-  max-width: 50%;
+  max-width: 40%;
+}
+
+.orbitlogo {
+  max-width: 55%;
 }
 
 .notes {

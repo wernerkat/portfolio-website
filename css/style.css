@@ -310,9 +310,11 @@ nav>ul>li>a {
   padding: 0 0 10px;
 }
 
-main {
-  margin-left: 0px;
-  margin-right: 0px;
+/* Layout styling */
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 0 0px;
 }
 
 footer {

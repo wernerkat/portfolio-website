@@ -896,6 +896,12 @@ ipad devices (767px and smaller)
       padding-right: 35px;
       padding-top: 10px;
     }
+
+.about-container { flex-wrap: wrap;  }
+
+    .port-div{
+      flex-basis: 100%;
+    }
   }
 
 

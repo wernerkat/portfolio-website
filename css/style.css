@@ -362,9 +362,16 @@ nav>ul>li>a {
 .hero {
   background-color: #ffffff;
   text-align: center;
-  padding: 150px 0;
-  display: inline-block;
-  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 20px;
+  width: 70vw;
+  margin: 0 auto;
+  font-size: 1.6em;
+}
+
+.hero h1 {
+  line-height: auto;
+
 }
 
 /* arrow */

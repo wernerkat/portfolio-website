@@ -402,7 +402,27 @@ nav>ul>li>a {
 
 
 #full {
-  height: 10vh;
+  height: 4vh;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 12px;
+  font-size: 1.2em;
+}
+
+.vd,
+.highlight {
+  color: #fff;
+  font-size: 50px;
+  text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+
+.vd:hover,
+.highlight:hover {
+  color: #E5FAE6;
 }
 
 /* about page */

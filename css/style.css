@@ -787,6 +787,8 @@ Mini devices (500px and smaller)
   }
 }
 
+
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -850,7 +852,7 @@ ipad devices (767px and smaller)
       padding-top: 10px;
     }
   }
-}
+
 
 /* ==============================
 ipad devices (768px and larger)

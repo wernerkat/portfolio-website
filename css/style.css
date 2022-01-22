@@ -777,6 +777,29 @@ spaceship & beam
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+/* ==============================
+rainbow background
+================================= */
+
+/* ====
+.hero {
+    animation: colorchange 8s; /* animation-name followed by duration in seconds*/ /* you could also use milliseconds (ms) or something like 2.5s */
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+/*
+@keyframes colorchange {
+    0% { background: #E5FAE6; }
+    14% { background: #E5FAE6; }
+    28% { background: #FCF3E7; }
+    42% { background: #F7EFF6; }
+    56% { background: #EFF0F7; }
+    70% { background: #F7EFF6; }
+    84% { background: #FCF3E7; }
+    100% { background: #E5FAE6; }
+}
+
 
 /* ==============================
 Mini devices (500px and smaller)

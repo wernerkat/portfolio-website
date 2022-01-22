@@ -801,10 +801,10 @@ rainbow background
 /* ====
 .hero {
     animation: colorchange 8s; /* animation-name followed by duration in seconds*/ /* you could also use milliseconds (ms) or something like 2.5s */
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-}
+  /* animation-timing-function: ease-in-out; */
+    /* animation-iteration-count: infinite; */
+    /* animation-play-state: running; */
+
 /*
 @keyframes colorchange {
     0% { background: #E5FAE6; }
@@ -826,8 +826,6 @@ Mini devices (500px and smaller)
     text-align: center;
   }
 }
-
-
 
 /* ==============================
 Medium devices (640px and larger)
@@ -876,6 +874,7 @@ Medium devices (640px and larger) NAVIGATION
   .navtoggle li:last-child {
     display: none;
   }
+}
 
   /* ==============================
 ipad devices (767px and smaller)

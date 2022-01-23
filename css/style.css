@@ -83,6 +83,7 @@ a {
 
 .current {
   font-weight: 500;
+
 }
 
 a:active {
@@ -214,7 +215,6 @@ a:active {
   border-bottom-width: 0;
   top: 0.2em;
 }
-
 /* sections */
 
 .fallback-header {
@@ -231,6 +231,7 @@ header {
   box-shadow: 1px 3px 5px 1px rgba(50, 50, 50, 0.05);
   z-index: 300;
 }
+
 
 /* navigation */
 nav>ul {

@@ -218,8 +218,9 @@ a:active {
 /* sections */
 
 header {
-  background-color: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   position: fixed;
   width: 100%;
   /* a fixed header messes up margin */

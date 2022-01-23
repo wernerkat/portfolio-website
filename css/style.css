@@ -343,8 +343,8 @@ nav>ul>li>a {
 /* arrow */
 .arrow {
   box-sizing: border-box;
-  height: 4.5vw;
-  width: 4.5vw;
+  height: 3.8vw;
+  width: 3.85vw;
   border-style: solid;
   border-color: #000000;
   border-width: 0px 1px 1px 0px;

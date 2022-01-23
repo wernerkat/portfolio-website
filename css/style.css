@@ -240,7 +240,9 @@ nav>ul>li>a {
   padding: 0 15px;
   display: inline-block;
   width: auto;
+
 }
+
 
 .navigation a:hover {}
 
@@ -671,7 +673,7 @@ spaceship & beam
 
 100% {
   /* transform: rotate(0deg); */
-/ */
+ \
 /* } */
 
 /* .lightbeam { */
@@ -767,6 +769,7 @@ Mini devices (500px and smaller)
   }
 }
 
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -815,6 +818,8 @@ Medium devices (640px and larger) NAVIGATION
     display: none;
   }
 }
+
+
 
 /* ==============================
 ipad devices (767px and smaller)

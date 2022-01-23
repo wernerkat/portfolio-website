@@ -841,7 +841,7 @@ ipad devices (767px and smaller)
 
   nav {
     width: auto;
-    float: right;
+    float:right;
     padding-right: 35px;
     padding-top: 10px;
   }

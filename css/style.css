@@ -296,7 +296,7 @@ nav>ul>li>a {
 
 .about-container {
   display: flex;
-  padding: 110px 80px 0 80px;
+  padding: 110px 40px 0 40px;
 }
 
 .img-content {
@@ -306,7 +306,7 @@ nav>ul>li>a {
 .about-content {
   flex: 1;
   margin-top: 30px;
-  margin-left: 50px
+  margin-left: 20px;
 }
 
 .row {
@@ -771,6 +771,20 @@ Mini devices (500px and smaller)
   .portrait {
     text-align: center;
   }
+
+  .about-container {
+    display: flex;
+    padding: 110px 10px 0 10px;
+  }
+.about-content {
+  display: flex;
+  .about-content {
+    flex: 1;
+    margin-top: 30px;
+
+  }
+
+}
 }
 
 

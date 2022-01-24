@@ -450,7 +450,7 @@ nav>ul>li>a {
 }
 
 .footer-content__item {
-  flex: 1 0 200px;
+  flex: 1 0 75px;
 }
 
 .footer-content:last-child {

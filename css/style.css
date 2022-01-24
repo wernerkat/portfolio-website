@@ -268,7 +268,14 @@ nav>ul>li>a {
   padding-top: 20px;
 }
 
+.navtoggle {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+
 .navtoggle.responsive nav {
+  text-align:left;
   padding: 24px 0 0;
 }
 

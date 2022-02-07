@@ -1,24 +1,28 @@
 /*
 Colors used:
-Website Footer Color (ltgreen): #E5FAE6
+Website Footer Color (ltgreen): #d8ffcc
 orbit purple: #5F62F4
 */
+
 /*
 Fonts Used:
 Primary: Montserrat Light 300
 Secondary: Montserrat Medium 500
 Tertiary: Montserrat Bold 700
+
 */
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+
   /* Sets the font size to 16px */
   font-weight: 300;
+
   /* Sets the font weight to 300 */
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */

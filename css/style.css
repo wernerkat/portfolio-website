@@ -460,15 +460,20 @@ nav>ul>li>a {
   margin-left: 0px;
 }
 
+/* hero section */
 .hero {
-  background-color: #ffffff;
-  text-align: center;
-  padding-top: 150px;
-  padding-bottom: 20px;
-  width: 70vw;
-  margin: 0 auto;
-  font-size: 1.6em;
-}
+  display: flex;
+  align-items: center;
+  background-color: #fffff;
+  color: #000;
+  width: 80vw;
+  padding-bottom: 10%;
+  padding-top: 2%;
+  font-size: 1em;
+  margin-top: 8%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 40px;
 
 /* arrow */
 .arrow {

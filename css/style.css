@@ -533,13 +533,18 @@ orbit containers
 ================================= */
 .flexbox-container {
   display: flex;
-  padding-top: 50px;
+  padding-top: 60px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.top {
+  margin-top: 60px;
 }
 
 .flexbox-item {
-  flex: 1 0 200px;
-  margin: 50px;
-  width: 200px;
+  flex: 1 0 50px;
+  margin: 20px;
 }
 
 .flexbox-item:last-child {
@@ -553,6 +558,10 @@ orbit containers
 .flexbox-container-background {
   display: flex;
   padding-top: 20px;
+  justify-content: space-evenly;
+}
+
+.flexbox-background-item {
   justify-content: space-evenly;
 }
 

@@ -487,9 +487,8 @@ nav>ul>li>a {
   text-align: right;
 }
 
-.copyright {
-  font-size: .75em;
-  text-align: left;
+.footer-content__item h4 {
+  line-height: 0.6em;
 }
 
 .iconspace {

@@ -388,21 +388,18 @@ nav > ul > li > a {
   padding: 0 15px;
   display: inline-block;
   width: auto;
-
 }
-
 
 .navigation a:hover {}
 
-.navigation a:active {
-
-}
+.navigation a:active {}
 
 .navtoggle li:not(:last-child) {
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 
@@ -419,16 +416,14 @@ nav > ul > li > a {
   margin-right: 4%;
 }
 
-
 .navtoggle.responsive nav {
-  text-align:left;
+  text-align: left;
   padding: 24px 0 0;
 }
 
 .navtoggle.responsive li {
   display: flex;
   padding: 50px 0;
-
 }
 
 .navtoggle.responsive li:last-child {
@@ -439,7 +434,7 @@ nav > ul > li > a {
 .container {
   display: flex;
   justify-content: center;
-  padding: 0 0px;
+  padding: 0;
 }
 
 .page-layout {

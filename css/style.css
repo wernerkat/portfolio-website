@@ -193,59 +193,91 @@ a:active {
   opacity: 0.7;
 }
 
-/*
-.resumebutton {
-  text-align: center;
-  padding-top: 40px;
-  border-radius: 25px;
-  border: 1.5px solid #ffffff;
-}*/
 .resumebutton {
   display: inline-block;
-  background-color: #E5FAE6;
-  font-size: .9em;
-  font-weight: 500;
-  padding: .5em 1.4em;
+  color: #fff;
+  background-color: #c73388;
+  font-size: 0.9em;
+  font-weight: 700;
+  padding: 0.7em 1.8em;
   text-decoration: none;
-  border-radius: 0.3em;
-  border-bottom: 0.25em solid #9DB99F;
+  border-radius: 0.4em;
+  border-top: 0.1em solid #892d62;
+  border-left: 0.1em solid #892d62;
+  border-right: 0.1em solid #892d62;
+  border-bottom: 0.3em solid #892d62;
   box-shadow: 0 2px 3px #ccc;
-  transition: 0.1s;
   position: relative;
+  top: 0;
+  transition: top ease 0.1s;
   z-index: 1;
 }
 
 .resumebutton:hover {
-  background-color: #A3E6A8;
-  border-bottom-width: 0;
-  top: 0.2em;
+  background-color: #c73388;
+  border-bottom: 0.45em solid #892d62;
+  border-top: 0.1em solid #892d62;
+  border-left: 0.1em solid #892d62;
+  border-right: 0.1em solid #892d62;
+  top: -2.5px;
 }
 
-.email {
-  text-align: center;
-  padding-top: 4%;
-}
-
-.projectbutton {
-  display: inline-block;
-  background-color: #E5FAE6;
-  font-size: .9em;
-  font-weight: 500;
-  padding: .5em 1.4em;
+.herobutton {
+  color: #fff;
+  background-color: #f85386;
+  font-size: 0.9em;
+  font-weight: 700;
+  padding: 0.7em 1.8em;
   text-decoration: none;
-  border-radius: 0.3em;
-  border-bottom: 0.25em solid #9DB99F;
+  border-radius: 0.4em;
+  border-top: 0.1em solid #c75377;
+  border-left: 0.1em solid #c75377;
+  border-right: 0.1em solid #c75377;
+  border-bottom: 0.3em solid #c75377;
   box-shadow: 0 2px 3px #ccc;
-  transition: 0.1s;
   position: relative;
+  top: 0;
+  transition: top ease 0.1s;
   z-index: 1;
 }
 
-.projectbutton:hover {
-  background-color: #A3E6A8;
-  border-bottom-width: 0;
-  top: 0.2em;
+.herobutton:hover {
+  background-color: #f85386;
+  border-bottom: 0.45em solid #c75377;
+  border-top: 0.1em solid #c75377;
+  border-left: 0.1em solid #c75377;
+  border-right: 0.1em solid #c75377;
+  top: -2.5px;
 }
+
+.linkedinbutton {
+  color: #fff;
+  background-color: #5b83dd;
+  font-size: 0.9em;
+  font-weight: 700;
+  padding: 0.7em 1.8em;
+  text-decoration: none;
+  border-radius: 0.4em;
+  border-top: 0.1em solid #4970c7;
+  border-left: 0.1em solid #4970c7;
+  border-right: 0.1em solid #4970c7;
+  border-bottom: 0.3em solid #4970c7;
+  box-shadow: 0 2px 3px #ccc;
+  position: relative;
+  top: 0;
+  transition: top ease 0.1s;
+  z-index: 1;
+}
+
+.linkedinbutton:hover {
+  background-color: #5b83dd;
+  border-bottom: 0.45em solid #4970c7;
+  border-top: 0.1em solid #4970c7;
+  border-left: 0.1em solid #4970c7;
+  border-right: 0.1em solid #4970c7;
+  top: -2.5px;
+}
+
 /* sections */
 
 header {

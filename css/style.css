@@ -442,7 +442,7 @@ nav>ul>li>a {
 
 .about-container {
   display: flex;
-  padding: 110px 40px 0 40px;
+  padding: 110px 40px 0;
 }
 
 .img-content {

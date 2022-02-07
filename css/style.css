@@ -475,16 +475,17 @@ nav>ul>li>a {
 }
 
 .footer-content {
-  display: flex;
   align-content: space-between;
 }
 
 .footer-content__item {
-  flex: 1 0 75px;
+  text-align: center;
 }
 
-.footer-content:last-child {
-  text-align: right;
+.copyright {
+  font-size: 1em;
+  text-align: center;
+  padding-bottom: 5px;
 }
 
 .footer-content__item h4 {

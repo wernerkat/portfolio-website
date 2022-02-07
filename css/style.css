@@ -467,11 +467,16 @@ nav>ul>li>a {
 
 /* footer */
 .footer {
-  background-color: #E5FAE6;
+  background-color: #fff;
+  border-top: 0.6px;
   padding-top: 30px;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-top: auto;
+}
+
+.emailme {
+  font-size: 1em;
 }
 
 .footer-content {

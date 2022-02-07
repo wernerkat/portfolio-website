@@ -173,29 +173,45 @@ a:active {
   border-radius: 8px;
 }
 
-.button:hover {
-  background-color: #E5FAE6;
-  /*text-decoration: underline ;*/
-  padding: 10px;
-  opacity: 0.7;
+.email {
+  text-align: center;
+  padding-top: 4%;
 }
 
-.button.contact {
-  background-color: #000000;
-  color: #F3FAE8;
-  /* needed to override the default link color */
+.herobutt {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.projectbutton {
+  display: inline-block;
+  color: #fff;
+  background-color: #f85386;
+  font-size: 0.9em;
+  font-weight: 700;
+  padding: 0.7em 1.8em;
   text-decoration: none;
-  font-weight: 300;
-  padding: 10px;
-  transition: 0.3s opacity;
+  border-radius: 0.4em;
+  border-top: 0.1em solid #c75377;
+  border-left: 0.1em solid #c75377;
+  border-right: 0.1em solid #c75377;
+  border-bottom: 0.3em solid #c75377;
+  box-shadow: 0 2px 3px #ccc;
+  position: relative;
+  top: 0;
+  transition: top ease 0.1s;
+  z-index: 1;
 }
 
-.button.contact:hover {
-  background-color: #000000;
-  color: #Ffffff;
-  /*text-decoration: underline ;*/
-  padding: 10px;
-  opacity: 0.7;
+.projectbutton:hover {
+  background-color: #f85386;
+  border-bottom: 0.45em solid #c75377;
+  border-top: 0.1em solid #c75377;
+  border-left: 0.1em solid #c75377;
+  border-right: 0.1em solid #c75377;
+  top: -2.5px;
 }
 
 .resumebutton {

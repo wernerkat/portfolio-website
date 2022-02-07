@@ -616,158 +616,53 @@ alocal style
   margin-top: 80px;
 }
 
-/* ==============================
-animation
-================================= */
-.illustration {
-  width: 100%;
-  padding-bottom: 20px;
-  max-width: 100%;
-  height: auto;
-}
-
-.portraitillustration {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
 
 /* ==============================
-spaceship & beam
+Mini devices (350px and smaller)
 ================================= */
-/* @keyframes ship-sway { */
-0% {
-  transform: rotate(.3deg);
-}
-
-25% {
-  transform: rotate(-.25deg);
-}
-
-50% {
-  transform: rotate(.5deg);
-}
-
-75% {
-  transform: rotate(-.5deg);
-}
-
-100% {
-  transform: rotate(0deg);
-}
-/* }
-
-/* .spaceship { */
-/* animation-duration: 2s; */
-/* animation-name: ship-sway; */
-/* animation-iteration-count: infinite; */
-/* animation-direction: alternate; */
-/* animation-timing-function: linear; */
-/* } */
-
-/* @keyframes beam-wiggle { */
-/* 0% { */
-  /* transform: rotate(.3deg); */
-
-
-25% {
-  /* transform: rotate(-.25deg); */
-}
-
-50% {
-  /* transform: rotate(.5deg); */
-}
-
-75% {
-  /* transform: rotate(-.5deg); */
-}
-
-100% {
-  /* transform: rotate(0deg); */
- \
-/* } */
-
-/* .lightbeam { */
-/* animation-duration: 2s; */
-/* animation-name: beam-wiggle; */
-/* animation-iteration-count: infinite; */
-/* animation-direction: alternate; */
-/* animation-timing-function: linear; */
-}
-
-/* @keyframes lightbeam-color {
-  0% {
-    fill: #edc7bb;
+@media all and (max-width: 350px) {
+  .portrait {
+    text-align: left;
   }
 
-  50% {
-    fill: #dfe281;
-  }
-
-  100% {
-    fill: #c3bbea;
+  .about-container {
+    display: flex;
+    padding: 110px 10px 0;
   }
 }
 
-.lightbeam polygon {
-  animation-duration: 3s;
-  animation-name: lightbeam-color;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-/* alien keyframes */
-@keyframes nose-wiggle {
-  0% {
-    transform: rotate(.2deg);
+  .about-content {
+    flex: 1;
+    margin-top: 30px;
+    margin-right: 5%;
   }
 
-  25% {
-    transform: rotate(-.2deg);
+  .contact-content {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
   }
 
-  50% {
-    transform: rotate(.1deg);
+  .herobox {
+    margin-top: 100px;
   }
 
-  75% {
-    transform: rotate(-.1deg);
+  .herobig {
+    line-height: 0;
   }
 
-  100% {
-    transform: rotate(.1deg);
+  .contact-box {
+    margin-top: 30%;
   }
-}
-
-.nose {
-  animation-duration: 2s;
-  animation-name: nose-wiggle;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
 }
 
 /* ==============================
-rainbow background
+Mini devices (351px to 400px)
 ================================= */
-/* ====
-.hero {
-    animation: colorchange 8s; /* animation-name followed by duration in seconds*/
-/* you could also use milliseconds (ms) or something like 2.5s */
-/* animation-timing-function: ease-in-out; */
-/* animation-iteration-count: infinite; */
-/* animation-play-state: running; */
-/*
-@keyframes colorchange {
-    0% { background: #E5FAE6; }
-    14% { background: #E5FAE6; }
-    28% { background: #FCF3E7; }
-    42% { background: #F7EFF6; }
-    56% { background: #EFF0F7; }
-    70% { background: #F7EFF6; }
-    84% { background: #FCF3E7; }
-    100% { background: #E5FAE6; }
+@media all and (min-width: 351px) and (max-width: 400px) {
+  .contact-box {
+    margin-top: 30%;
+  }
 }
 
 

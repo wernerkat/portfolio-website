@@ -874,6 +874,34 @@ ipad devices (767px and smaller)
   .port-div {
     flex-basis: 100%;
   }
+
+  .hero {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .heroimage {
+    margin-top: 50px;
+    margin-top: 20px;
+    max-width: 100%;
+  }
+
+  #herotext {
+    font-size: 1em;
+    margin-top: 30px;
+  }
+
+  .herolink {
+    font-size: 1em;
+  }
+
+  .hero2link {
+    font-size: 1em;
+      padding-bottom 5px
+  }
 }
 
 /* ==============================

@@ -772,23 +772,11 @@ rainbow background
 
 
 /* ==============================
-Mini devices (500px and smaller)
+Mini devices (400px to 640px)
 ================================= */
-@media all and (max-width: 350px) {
-  .portrait {
-    text-align: center;
-  }
-
-  .about-container {
-    display: flex;
-    padding: 110px 10px 0 10px;
-  }
-.about-content {
-  display: flex;
-  .about-content {
-    flex: 1;
-    margin-top: 30px;
-
+@media all and (min-width: 400px) and (max-width: 640px) {
+  .contact-box {
+    margin-top: 20%;
   }
 }
 

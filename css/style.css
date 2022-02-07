@@ -88,12 +88,12 @@ a {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 0.4em;
-  /* Underlining when hovering over a link */
+  color: #000;
 }
 
+/* Underlining when hovering over a link */
 .current {
-  font-weight: 500;
-
+  font-weight: 700;
 }
 
 a:active {
@@ -103,8 +103,8 @@ a:active {
 
 .orbitlink {
   font-weight: 700;
-  background-color: #FFFFFF;
-  color: #ed5d54;
+  background-color: #fff;
+  color: #f85386;
 }
 
 .orbitlink:hover {
@@ -113,8 +113,8 @@ a:active {
 
 .pulselink {
   font-weight: 700;
-  color: #ed5d54;
-  background-color: #FFFFFF;
+  color: #f85386;
+  background-color: #fff;
   text-align: left;
 }
 
@@ -124,8 +124,8 @@ a:active {
 
 .alocallink {
   font-weight: 700;
-  color: #ed5d54;
-  background-color: #FFFFFF;
+  color: #f85386;
+  background-color: #fff;
   text-align: center;
 }
 

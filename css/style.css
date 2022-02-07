@@ -381,21 +381,39 @@ nav>ul>li>a {
   font-size: 1.2em;
 }
 
-.vd,
-.highlight {
-  color: #fff;
-  font-size: 50px;
-  text-shadow: -1px 1px 2px #000,
-    1px 1px 2px #000,
-    1px -1px 0 #000,
-    -1px -1px 0 #000;
-  background-color: #ffffff;
+#herotext {
+  font-weight: 500;
+  text-align: left;
 }
 
-.vd:hover,
-.highlight:hover {
-  color: #E5FAE6;
-  background-color: #ffffff;
+.herobig {
+  font-size: 1em;
+}
+
+/* contact page */
+.contact-box {
+  background-color: #fff;
+  color: #000;
+  width: 80vw;
+  text-align: center;
+  align-items: center;
+  box-shadow: 2px 3px 5px 3px rgba(50, 50, 50, 0.05);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 12%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 3%;
+}
+
+.standard-label {
+  width: 100%;
+}
+
+.big {
+  font-size: 1em;
 }
 
 /* about page */

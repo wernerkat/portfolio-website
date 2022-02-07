@@ -523,9 +523,33 @@ nav>ul>li>a {
   text-align: center;
 }
 
+.top {
+  padding-top: 4%;
+}
+
 .pulsecaption {
   text-align: center;
   padding-top: 50px;
+}
+
+.bottomheader {
+  text-align: center;
+}
+
+.nextimage {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  width: 30%;
+}
+
+.bottomimage {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  min-width: 90px;
 }
 
 /* ==============================

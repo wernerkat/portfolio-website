@@ -311,7 +311,9 @@ header {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   position: fixed;
+  top: 0;
   width: 100%;
+
   /* a fixed header messes up margin */
   box-shadow: 1px 3px 5px 1px rgba(50, 50, 50, 0.05);
   z-index: 300;
@@ -382,7 +384,7 @@ nav > ul {
   /* remove bullets and padding from list */
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 15px;
   display: inline-block;
   width: auto;

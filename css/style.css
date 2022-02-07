@@ -575,12 +575,17 @@ orbit containers
 .orbitheader h1 {
   padding-top: 40px;
   text-align: left;
-  color: #6045BF;
-  background-color: #ffffff;
+  color: #6045bf;
+  background-color: #fff;
 }
 
 .orbitcolor {
   padding-top: 20px;
+}
+
+.orbitcase {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /* ==============================
@@ -625,7 +630,6 @@ Mini devices (350px and smaller)
     display: flex;
     padding: 110px 10px 0;
   }
-}
 
   .about-content {
     flex: 1;
@@ -660,7 +664,6 @@ Mini devices (351px to 400px)
     margin-top: 30%;
   }
 }
-
 
 /* ==============================
 Mini devices (400px to 640px)

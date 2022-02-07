@@ -12,7 +12,7 @@
   <!--fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
   <!--responsive-->
   <!-- hamburger -->
   <script src="https://kit.fontawesome.com/2bb072fd02.js" crossorigin="anonymous"></script>
@@ -25,51 +25,55 @@
     <div>
       <div class="navtoggle" id="myNavtoggle">
         <a href="index.html">
-          <img src="img/mylogo3.svg" alt="logo of name kat" class="logo">
+          <img src="img/mylogo3.svg" alt="logo of letter K" class="logo">
         </a>
         <nav>
           <ul class="navigation">
-            <li><a class="current current__active" href="index.html">Projects</a></li>
+            <li><a class="current current__active" href="index.html#full">Projects</a></li>
             <li><a class="current" href="about.html">About</a></li>
-            <li><a class="current" target="_blank" href="files/resume.pdf">Resume</a></li>
+            <li><a class="current" href="contact2.html">Connect</a></li>
             <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
           </ul>
         </nav>
       </div>
+
+      <div class="progress-container">
+        <div class="pulseprogress-bar" id="myBar"></div>
+      </div>
+
+    </div>
     </div>
   </header>
 
   <main>
-    <div class="pulseimage">
+    <div class="pulseimage top">
       <picture>
-        <source srcset="img/pulse/pulsebannermobile.png" media="(max-width:767px)">
+        <source srcset="img/pulse/pulsebannermobile.png" media="(max-width:500px)">
         <img src="img/pulse/pulsebanner.png" width="700" alt="phone screen banner">
       </picture>
     </div>
-
-    <div class="container pulsecontainer">
-      <div class="pulse-intro pulsesection">
-        <!--begin case study -->
-        <h1>Primary Direction</h1>
-        <!--begin introduction -->
-        <p> Our given project brief was general: Allow health-conscious individuals to log in to a responsive health and wellbeing portal that offers them features to support their health.
-        </p>
-        <h3>Role</h3>
-        <p>UI/UX Designer
-        </p>
-        <h3>Client</h3>
-        <p>CareerFoundry UX Immersion Course
-        </p>
-        <h3>Timeline</h3>
-        <p>5 Months
-        </p>
-        <h3>Tools Used</h3>
-        <div>
-          <ul>
-            <li>Adobe Xd</li>
-            <li>Usability Hub</li>
-            <li>Optimal Workshop</li>
-          </ul>
+    <div class="pulsebackgroundcolor">
+      <div class="container pulsecontainer">
+        <div class="pulse-intro pulsesection">
+          <!--begin case study -->
+          <h1>Problem</h1>
+          <!--begin introduction -->
+          <p> Our given project brief was general: Allow health-conscious individuals to log in to a responsive health and wellbeing app that offers them features to support their health.
+          </p>
+          <h3>Role</h3>
+          <p>UI/UX Designer
+            <br>Researcher
+            <br>Branding
+          </p>
+          <h3>Client</h3>
+          <p>CareerFoundry UX Immersion Course
+          </p>
+          <h3>Scope</h3>
+          <p>Mobile App Prototype <br>
+          </p>
+          <h3>Timeline</h3>
+          <p>5 Months
+          </p>
           <hr class="alocalline">
         </div>
       </div>
@@ -78,11 +82,12 @@
     <div class="pulsecontainer">
       <div class="pulsesection">
         <h1>Background</h1>
-        <p>While talking with a nurse practitioner, I heard the caregiver's perspective on the struggles her patients have with engagement in their health. </p>
+        <p>While talking with a nurse practitioner, I heard the caregiver's perspective on the struggles her patients have with engagement in their health. I became very curious when she said:<strong> "They spend so much time on unimportant things,
+            on their phones... and so little time on their health."</strong>
 
-        <h3>"They spend so much time on unimportant things, on their phones... and so little time on their wellbeing".</h3>
+        <p>This was the catalyst for my desire to better understand this problem. I began by asking <strong>which tools might be able increase patient engagement with healthcare, and if they already exist, why aren't they working?</strong>
 
-        <p>This was the catalyst for my desire to better understand this problem.<br> What tools might be able to support people with their healthcare, and if they already exist, why aren't they working?
+
         </p>
         <hr class="alocalline">
       </div>
@@ -106,7 +111,7 @@
         </div>
         <div>
           <br>
-          Through this initial analysis, I realized this problem space was vast, and I needed guidance from users to discover needs that are still unmet through any existing health apps.
+          Through this initial analysis, I realized this problem space was vast, and I needed guidance from users to discover needs that are still unmet through any existing health apps or a complete hole in market offerings.
           <hr class="alocalline">
         </div>
       </div>
@@ -116,7 +121,7 @@
       <div class="pulsesection">
         <h1>Surveys</h1>
 
-        <p> I asked 20 people to complete surveys about how they currently engage with their health.</p>
+        <p> I asked 20 regular app users to complete surveys about how they currently engage with their health.</p>
         <ul>
           <li>Nearly 70% of respondants felt that tracking health data was important to them.</li>
           <li>65% said that finding good healthcare was a barrier to better health.</li>
@@ -130,242 +135,305 @@
       <div class="pulsesection">
         <h1>Interviews</h1>
 
-        <p>Six people who already used at least one health or wellness app to track an aspect of their health were interviewed.</p>
+        <p>Six people who already used at least one health or wellness app to track an aspect of their health were interviewed to get deeper into the health app problem space.</p>
         <div>
           <h3> Interview Goals</h3>
           1. Learn how people currently engage with health history and tracking health information<br>
 
           2. Learn common practices for scheduling healthcare appointments and receiving test results ect. <br>
 
-          3. Find out which health and wellness apps and websites being used
+          3. Find out which health and wellness apps and websites are being used already
+          <br>
         </div>
-        <div>
-          <h3> Insights</h3>
-        </div>
-        <ul>
-          <li>Most people either use a paper filing system or rely on their doctor when they need historical health data</li>
-          <li>The way that users prefer to receive test results is highly variable</li>
-          <li>Even indivuals with complex health history do not want to put in the effort to track their health data</li>
-          <li>Finding a new doctor is highly stressful</li>
-          <li>There aren’t lots of regularly used health charting apps because they are poorly deigned</li>
-        </ul>
-        <div>
-          <p><strong>Feedback from interviews took me back to the analysis phase. Following the Double Diamond Stragety, I was able to narrow the scope and better understand the problem I was hoping to solve.</strong></p>
-        </div>
-        <div>
-          <img src="img/pulse/diamond.png" alt="double diamond chart">
-        </div>
-
-        <h3>Aha Moment: Maybe thinking an app can make users <strong>want to</strong> be more engaged with their care is the wrong way to go about it. Healthcare is percceived as a chore by many people, not something they enjoy. A more impactful focus will be to make this daunting process of receiving care easier.</h3>
-        <hr class="alocalline">
-      </div>
-    </div>
-
-    <div class="pulsecontainer">
-      <div class="pulsesection">
-        <h1>Targeted Hypothesis</h1>
-        <p>By enabling users to find health and wellness care providers, schedule appointments and store their health data in one place we will see them more empowered through their health journey.</p>
-        <hr class="alocalline">
-      </div>
-    </div>
-
-
-    <div class="pulsecontainer">
-      <div class="pulsesection">
-        <h1>Personas</h1>
-        <p>Healthcare is a universal topic. With Two key peronas encompassed a large range of potential users.</p>
-        <div>
-          <picture class="picture-pulse__image">
-            <source srcset="img/pulse/pulsepersonamobile.png" media="(max-width:600px)">
-            <img src="img/pulse/pulsepersona.png" width="500" alt="persona headshot">
-          </picture>
-          <hr class="alocalline">
-        </div>
-      </div>
-    </div>
-
-    <div class="pulsecontainer">
-      <div class="pulsesection">
-        <h1>User Stories</h1>
-        <ul>
-          <li>As a person with a simple health question, I want to be able to get an answer from a healthcare provider without having to go into their office.</li>
-          <li>As a person in need of healthcare, I want to schedule an appointment with a doctor based on my availability for convenience.</li>
-          <li>As a person in need of healthcare, I want to see all of my options for a doctor near me so that I can select the doctor that I am most comfortable with. </li>
-          <li>As a person in need of healthcare, I want to search for providers my their specialization so that I can see the doctor that will help me with my issue.</li>
-        </ul>
-        <div>
-          User stories helped determine the most critical features to build out first.
-          <h3><strong>Important Features:</strong></h3>
-          <ul>
-            <li>Finding & booking care</li>
-            <li>Saving health data</li>
-            <li>Contacting a provider between appointments</li>
-          </ul>
-          <hr class="alocalline">
-        </div>
-      </div>
-    </div>
-
-    <div class="pulsecontainer">
-      <div class="pulsesection">
-        <h1>User Flows</h1>
-        <p>The architecture of the app starts to come together via in-depth user flows of key features.</p>
-        <div>
-          <picture class="picture-pulse__medium-image ">
-            <source srcset="img/pulse/bookflowmobile.png" media="(min-width:767px)">
-            <img src="img/pulse/bookflow.png" width="800" alt="book flow chart">
-          </picture>
-        </div>
-        <div>
-          <picture class="picture-pulse__medium-image">
-            <source srcset="img/pulse/messageflowmobile.png" media="(max-width:767px)">
-            <img src="img/pulse/messageflow.png" width="700" alt="message flow chart">
-          </picture>
-          <hr class="alocalline">
-        </div>
-      </div>
-    </div>
-
-    <div class="pulsecontainer">
-      <div class="pulsesection">
-        <h1>Sitemap</h1>
-
-        <div>
-          <picture class="picture-pulse__medium-image ">
-            <source srcset="img/pulse/pulsesitemap.png" media="(min-width:767px)">
-            <img src="img/pulse/sitemap.png" width="800" alt="sitemap chart">
-          </picture>
-          <hr class="alocalline">
-        </div>
-      </div>
-    </div>
-
-    <div class="pulsecontainer">
-      <div class="pulsesection">
-        <h1>Wireframes</h1>
-        <p>Beginning with sketches, the exciting moments where the app begins to take shape occurs. Higher fidelity is gradualy worked out.</p>
-        <div>
-          <picture class="picture-pulse__image">
-            <source srcset="img/pulse/wireframesmobile.png" media="(max-width:767px)">
-            <img src="img/pulse/wireframes.png" width="700" alt="wireframe drawings">
-          </picture>
-          <hr class="alocalline">
-        </div>
-      </div>
-    </div>
-
-    <div class="pulsecontainer">
-      <div class="pulsesection">
-        <h1>User Testing</h1>
-        <p>Six willing participants were invited to complete a usability test on the mid-fidelity prototype. The errors and negative feedback were categorized, quantified and rated by
-          severity
-          in order to prioritize necessary changes.</p>
-        <div>
-          <picture class="picture-pulse__medium-image">
-            <source srcset="img/pulse/notesmobile.png" media="(max-width:767px)">
-            <img src="img/pulse/notes.png" width="700" alt="postit notes on wall">
-          </picture>
-        </div>
-        <div>
-          <picture class="picture-pulse__medium-image">
-            <source srcset="img/pulse/analysismobile.png" media="(max-width:767px)">
-            <img src="img/pulse/analysis.png" width="700" alt="error chart">
-          </picture>
-        </div>
-        <div>
-          <p>User testing greatly improved the app. Have a look below at some of the changes that were implemented.</p>
-        </div>
-        <div>
-          <picture class="picture-pulse__medium-image">
-            <source srcset="img/pulse/painpointsmobile.png" media="(max-width:767px)">
-            <img src="img/pulse/painpoints.png" width="700" alt="error chart">
-          </picture>
-          <hr class="alocalline">
-        </div>
-      </div>
-    </div>
-
-    <div class="pulsecontainer">
-      <div class="pulsesection">
-        <h1>Branding</h1>
-        <p>With inclusivity and trust as key goals of branding, a logo and look for the app were developed. </p>
-        <div>
-          <picture class="picture-pulse__medium-image">
-            <source srcset="img/pulse/pulsebrandgmobile.png" media="(max-width:767px)">
-            <img src="img/pulse/pulsebrand.png" width="700" alt="page from branding guide">
-          </picture>
-          <hr class="alocalline">
-        </div>
-      </div>
-    </div>
-
-    <div class="pulsecontainer">
-      <div class="pulsesection">
-        <h1>Final Design</h1>
-        <!--begin final design showcase -->
-        <p>After making changes based on user testing feedback, the design received some additional accessibility changes before wrapping up the projet. Some final screens are depicted below.</p>
-        <div class="pulsecaption">
-          <h4>Save Health Data</h4>
-        </div>
-        <div>
-          <picture>
-            <source srcset="img/pulse/datamobile.png" media="(max-width:767px)">
-            <img src="img/pulse/data.png" width="700" alt="hi-fidelity app screens on phone">
-          </picture>
-        </div>
-        <div class="pulsecaption">
-          <h4>Find a Healthcare Provider</h4>
-        </div>
-        <div>
-          <picture>
-            <source srcset="img/pulse/providermobile.png" media="(max-width:767px)">
-            <img src="img/pulse/provider.png" width="700" alt="hi-fidelity app screens on phone">
-          </picture>
-        </div>
-        <div class="pulsecaption">
-          <h4>Message Doctor</h4>
-        </div>
-        <div>
-          <picture>
-            <source srcset="img/pulse/messagemobile.png" media="(max-width:767px)">
-            <img src="img/pulse/message.png" width="700" alt="hi-fidelity app screens on phone">
-          </picture>
-        </div>
-      </div>
-      <!--end final design showcase -->
-      <div>
         <br>
-        <a href="https://xd.adobe.com/view/5bfd14af-31dd-4483-b6db-05b40bb09441-0eae/" class="pulselink" target="_blank">Check out the live prototype</a> <br>
+        <div>
+          <img src="img/pulse/interviewmap.png" width="500" alt="list of interview questions">
+          </picture>
+        </div>
+          <div>
+            <h3> Insights</h3>
+          </div>
+          <ul>
+            <li>Most people either use a paper filing system or rely on their doctor when they need historical health data</li>
+            <li>The way that users prefer to receive test results is highly variable</li>
+            <li>Even indivuals with complex health history do not want to put in the effort to track their health data</li>
+            <li>Finding a new doctor is highly stressful</li>
+            <li>There aren’t lots of regularly used health charting apps because they are poorly designed</li>
+            <li>Users are most inclined to use well designed apps like Apple Health and Headspace</li>
+          </ul>
+          <div>
+            <p><strong>Feedback from interviews took me back to the analysis phase. Following the Double Diamond Stragety, I was able to narrow the scope and better understand the problem I was hoping to solve.</strong></p>
+          </div>
+          <div>
+            <img src="img/pulse/diamond.png" alt="double diamond chart">
+          </div>
+
+
+          <div class="pulsecontainer">
+            <div class="pulsesection">
+              <h1>Change of Direction</h1>
+              <h3>*Aha Moment* Maybe thinking an app can make users <strong>want to</strong> be more engaged with their care is the wrong way to go about it. Healthcare is perceived as a chore by many people, not something they enjoy. A more
+                impactful
+                focus will be to <strong>make this daunting process of receiving care easier.</strong></h3>
+              <hr class="alocalline">
+            </div>
+          </div>
+
+          <div class="pulsecontainer">
+            <div class="pulsesection">
+              <h1>Targeted Hypothesis</h1>
+              <p>By enabling users to find health and wellness care providers, schedule appointments and store their health data in one place we will see them more supported in their health journey.</p>
+              <hr class="alocalline">
+            </div>
+          </div>
+
+
+          <div class="pulsecontainer">
+            <div class="pulsesection">
+              <h1>Personas</h1>
+              <p>Healthcare is a universal topic. Two key peronas encompassed a large range of potential users.</p>
+              <div>
+                <picture class="picture-pulse__image">
+                  <source srcset="img/pulse/pulsepersonamobile.png" media="(max-width:600px)">
+                  <img src="img/pulse/pulsepersona.png" width="500" alt="persona headshot">
+                </picture>
+                <hr class="alocalline">
+              </div>
+            </div>
+          </div>
+
+          <div class="pulsecontainer">
+            <div class="pulsesection">
+              <h1>User Stories</h1>
+              <ul>
+                <li>As a person with a simple health question, I want to be able to get an answer from a healthcare provider without having to go into their office.</li>
+                <li>As a person in need of healthcare, I want to schedule an appointment with a doctor based on my availability for convenience.</li>
+                <li>As a person in need of healthcare, I want to see all of my options for a doctor near me, so that I can select the doctor that I am most comfortable with. </li>
+                <li>As a person in need of healthcare, I want to search for providers by their specialization so that I can see the doctor that will help me with my issue.</li>
+              </ul>
+              <div>
+                User stories helped narrow down the most critical features to build out first.
+                <h3><strong>Important Features:</strong></h3>
+                <ul>
+                  <li>Finding & booking care</li>
+                  <li>Saving health data</li>
+                  <li>Contacting a provider between appointments</li>
+                </ul>
+                <hr class="alocalline">
+              </div>
+            </div>
+          </div>
+
+          <div class="pulsecontainer">
+            <div class="pulsesection">
+              <h1>User Flows</h1>
+              <p>The architecture of the app starts to come together via in-depth user flows of key features.</p>
+              <div>
+                <picture class="picture-pulse__medium-image ">
+                  <source srcset="img/pulse/bookflowmobile.png" media="(min-width:767px)">
+                  <img src="img/pulse/bookflow.png" width="800" alt="book flow chart">
+                </picture>
+              </div>
+              <div>
+                <picture class="picture-pulse__medium-image">
+                  <source srcset="img/pulse/messageflowmobile.png" media="(max-width:767px)">
+                  <img src="img/pulse/messageflow.png" width="700" alt="message flow chart">
+                </picture>
+                <hr class="alocalline">
+              </div>
+            </div>
+          </div>
+
+          <div class="pulsecontainer">
+            <div class="pulsesection">
+              <h1>Journey Maps</h1>
+              <p>I got into the minds of users by creating maps with predicted emotions as they experienced a feature.</p>
+              <div>
+                <img src="img/pulse/journeymap.png" width="800" alt="book flow chart">
+                <hr class="alocalline">
+              </div>
+            </div>
+          </div>
+
+          <div class="pulsecontainer">
+            <div class="pulsesection">
+              <h1>Sitemap</h1>
+
+              <div>
+                <picture class="picture-pulse__medium-image ">
+                  <source srcset="img/pulse/pulsesitemap.png" media="(min-width:767px)">
+                  <img src="img/pulse/pulsesitemap.png" width="400" alt="sitemap chart">
+                </picture>
+                <hr class="alocalline">
+              </div>
+            </div>
+          </div>
+
+          <div class="pulsecontainer">
+            <div class="pulsesection">
+              <h1>Low-Fi Wireframes</h1>
+              <p>Guided by my sitemap, I was able to dig into wirefames (I love starting with pen and paper). Though mobile was my first priority, I worked in sketches of the web version as well keeping the demographic that is less comfortable on
+                their phones in mind.</p>
+              <div>
+                <img src="img/pulse/lowfi.png" width="700" alt=" low fi mobile wireframe drawings">
+                <img src="img/pulse/lowfiweb.png" width="700" alt=" low fi web wireframe drawings">
+                <hr class="alocalline">
+              </div>
+            </div>
+          </div>
+
+          <div class="pulsecontainer">
+            <div class="pulsesection">
+              <h1>Mid-Fi Wireframes</h1>
+              <p>I realized places where I needed more steps for clarity as I worked through creating a live prototype in mid-fidelity. This prototype would be tested with users in the next step of the process.</p>
+              <div>
+                <img src="img/pulse/midfi.png" width="700" alt=" mid fi mobile wireframe drawings">
+                <hr class="alocalline">
+              </div>
+            </div>
+          </div>
+
+          <div class="pulsecontainer">
+            <div class="pulsesection">
+              <h1>User Testing</h1>
+              <p>Six willing participants were invited to complete a video-recorded usability test on the mid-fidelity version of the mobile prototype. While listening back, the the errors and negative feedback were categorized, quantified and rated
+                by
+                severity
+                in order to prioritize necessary changes.</p>
+              <div>
+                <picture class="picture-pulse__medium-image">
+                  <source srcset="img/pulse/notesmobile.png" media="(max-width:767px)">
+                  <img src="img/pulse/notes.png" width="700" alt="postit notes on wall">
+                </picture>
+              </div>
+              <div>
+                <picture class="picture-pulse__medium-image">
+                  <source srcset="img/pulse/analysismobile.png" media="(max-width:767px)">
+                  <img src="img/pulse/analysis.png" width="700" alt="error chart">
+                </picture>
+              </div>
+              <div>
+                <h1>Painpoints</h1>
+                <p><strong>User testing greatly improved the app!</strong> Have a look below at some of the changes that were implemented from the feedback I received.</p>
+              </div>
+              <div>
+                <picture class="picture-pulse__medium-image">
+                  <source srcset="img/pulse/painpointsmobile.png" media="(max-width:500px)">
+                  <img src="img/pulse/painpoints.png" width="500" alt="error chart">
+                </picture>
+                <hr class="alocalline">
+              </div>
+            </div>
+          </div>
+
+          <div class="pulsecontainer">
+            <div class="pulsesection">
+              <h1>Branding</h1>
+              <p>With inclusivity and trust as key goals of branding, a logo and look for the app were developed. </p>
+              <div>
+                <picture class="picture-pulse__medium-image">
+                  <source srcset="img/pulse/pulsebrandmobile.png" media="(max-width:767px)">
+                  <img src="img/pulse/pulsebrand.png" width="700" alt="page from branding guide">
+                </picture>
+                <hr class="alocalline">
+              </div>
+            </div>
+          </div>
+
+          <div class="pulsecontainer">
+            <div class="pulsesection">
+              <h1>Final Design</h1>
+              <!--begin final design showcase -->
+              <p>After completing revisions based on user testing feedback, the design received some additional accessibility changes before wrapping up the project. Some final screens are depicted below.</p>
+              <div class="pulsecaption">
+                <h4>Save Health Data</h4>
+              </div>
+              <div>
+                <picture>
+                  <source srcset="img/pulse/datamobile.png" media="(max-width:767px)">
+                  <img src="img/pulse/data.png" width="700" alt="hi-fidelity app screens on phone">
+                </picture>
+              </div>
+              <div class="pulsecaption">
+                <h4>Find a Healthcare Provider</h4>
+              </div>
+              <div>
+                <picture>
+                  <source srcset="img/pulse/providermobile.png" media="(max-width:767px)">
+                  <img src="img/pulse/provider.png" width="700" alt="hi-fidelity app screens on phone">
+                </picture>
+              </div>
+              <div class="pulsecaption">
+                <h4>Message Doctor</h4>
+              </div>
+              <div>
+                <picture>
+                  <source srcset="img/pulse/messagemobile.png" media="(max-width:767px)">
+                  <img src="img/pulse/message.png" width="700" alt="hi-fidelity app screens on phone">
+                </picture>
+              </div>
+            </div>
+            <!--end final design showcase -->
+            <div>
+              <br>
+              <a href="https://xd.adobe.com/view/5fe185e9-8027-41b9-8a6a-c4219c3a9a7c-0ab2/" class="pulselink" target="_blank">Check out the live prototype</a> <br>
+            </div>
+          </div>
+
+          <div class="pulsecontainer">
+            <div class="pulsesection">
+              <h1>Conclusion</h1>
+              <strong>The Pulse app is a tool to simplify an overly complicated process in order to support users on their health journey.</strong> It solves the problem of keeping health data in the hands of the true owners, the patients. It also
+              facilitates finding, scheduling and talking to healthcare providers with ease. When all aspects of
+              a healthcare appointment are in one place, patients can focus on their health instead of administrative hassles. They may just find they dislike the process of finding care a little less.
+
+              <h3>Discoveries</h3>
+              <p>1. <strong>User feedback can change everything.</strong> They generally felt that healthcare is a chore, and what they need is a way to make it simpler, not necessarily a way to be more involved. Learning this shaped the entire
+                direction for the app.<br>
+
+                2. <strong>An app is not always the holistic answer.</strong> I realized that my solution might be best accompanied by smart kiosks. They could operate in secure locations with private booths. The booths might be set up similar to a post office, and located by neighborhood. Here, patients could schedule a time to utilize one and either submit vitals to doctors or chat with a nurse live. This could revolutionize follow-up visits and quick care needs on both the patient and caregiver end. </p>
+
+                <div>
+                  <picture class="picture-pulse__medium-image">
+                    <source srcset="img/pulse/kiosk.png" media="(max-width:767px)">
+                    <img src="img/pulse/kiosk.png" width="700" alt="page from branding guide">
+                  </picture>
+                </div>
+              <h3>Future Improvements</h3>
+              <ul>
+                <li>Build out kiosk features</li>
+                <li>Emphasis on health data security & privacy</li>
+                <li>Concept the app for the provider’s side *This would likely have been built for release simultaneously, as it would be monetized via the provider paying to belong to the platform*</li>
+                <li>Deeper level of accessibility including voice control</li>
+              </ul>
+            </div>
+            <hr class="alocalline">
+          </div>
+        </div>
+        <div class="bottomheader">
+          <h5>Explore More Projects</h5>
+        </div>
+        <div>
+          <div class="nextimage">
+            <div class="bottomimage">
+              <a href="orbit.html">
+                <img src="img/orbit/orbitbannermobile.png" media="(max-width:100px)" alt="phone screen banner">
+              </a>
+            </div>
+            <div class="bottomimage">
+              <a href="alocal.html">
+                <img src="img/alocal/alocalbannermobile.png" media="(max-width:100px)" alt="phone screen banner">
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="pulsecontainer">
-      <div class="pulsesection">
-        <h1>Conclusion</h1>
-The Pulse app is a tool to simplify an overly complicated process. It solves the problem of  keeps health data in the hands of the true owners, the patients. It also facilitated easier finding and booking of doctors. With every aspect of a healthcare appointment in one place, patients can focus on their health instead of administrative hassles.
 
-        <h3>Discoveries</h3>
-        <p>1. <strong>User feedback can change everything.</strong> They generally felt that healthcare is a chore, and what they need is a way to make it simpler, not necessarily a way to be more involved. Learning this shaped the entire direction for the app.<br>
-
-          2. Phrasing and quick adaptation is very important when asking test questions. I had a few instances where my questions came off too ambiguous or too specific, and the data I received from those usability tests was not reliable. I learned
-          how to get better results from my questions the more testing I completed. </p>
-        <h3>Future Improvements</h3>
-        <ul>
-          <li>Emphasis on health data security & privacy</li>
-          <li>Concept the app for the provider’s side *This would likely have been built for release simultaneously, as it would be monetized via the provider paying to belong to the platform*</li>
-          <li>Integrations with Google Calendar and Apple Health</li>
-          <li>Deeper level of accessibility including voice control</li>
-        </ul>
-      </div>
-    </div>
   </main>
 
   <footer class="footer" id="connect">
     <div class="footer-content">
-      <div class=" footer-content__item copyright">
-        <p>Copyright Kathryn Werner 2022</p>
-      </div>
-
       <div class="icon footer-content__item">
         <!--Social Media Layout and Placeholders-->
         <a href="https://www.behance.net/katwerner" class="iconspace" target="_blank">
@@ -381,7 +449,7 @@ The Pulse app is a tool to simplify an overly complicated process. It solves the
             <rect height="31.072" style="fill:#030404;" width="127.659" x="334.235" y="116.72" />
           </svg>
         </a>
-        <a href="http://www.linkedin.com" class="iconspace" target="_blank">
+        <a href="https://www.linkedin.com/in/kathryn-werner/" class="iconspace" target="_blank">
           <!--linkedin Icon-->
           <svg style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="25" height="25" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -389,18 +457,18 @@ The Pulse app is a tool to simplify an overly complicated process. It solves the
               d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
           </svg>
         </a>
-        <!--Social Media Layout and Placeholders-->
-        <!--pinterest Icon-->
-        <a href="https://www.pinterest.com/katwerner" class="iconspace" target="_blank">
-          <svg enable-background="new 0 0 56.693 56.693" width="25px" height="25px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <path
-              d="M30.374,4.622c-13.586,0-20.437,9.74-20.437,17.864c0,4.918,1.862,9.293,5.855,10.922c0.655,0.27,1.242,0.01,1.432-0.715  c0.132-0.5,0.445-1.766,0.584-2.295c0.191-0.717,0.117-0.967-0.412-1.594c-1.151-1.357-1.888-3.115-1.888-5.607  c0-7.226,5.407-13.695,14.079-13.695c7.679,0,11.898,4.692,11.898,10.957c0,8.246-3.649,15.205-9.065,15.205  c-2.992,0-5.23-2.473-4.514-5.508c0.859-3.623,2.524-7.531,2.524-10.148c0-2.34-1.257-4.292-3.856-4.292  c-3.058,0-5.515,3.164-5.515,7.401c0,2.699,0.912,4.525,0.912,4.525s-3.129,13.26-3.678,15.582  c-1.092,4.625-0.164,10.293-0.085,10.865c0.046,0.34,0.482,0.422,0.68,0.166c0.281-0.369,3.925-4.865,5.162-9.359  c0.351-1.271,2.011-7.859,2.011-7.859c0.994,1.896,3.898,3.562,6.986,3.562c9.191,0,15.428-8.379,15.428-19.595  C48.476,12.521,41.292,4.622,30.374,4.622z" />
-          </svg>
-        </a>
       </div>
+        <div class="footer-content__item">
+          <h4><a class="emailme" href="mailto:hello@kathrynwernerux.com"> hello@kathrynwernerux.com</a></h4>
+        </div>
+        <!--Social Media Layout and Placeholders-->
+    <div class=" footer-content__item copyright">
+      <p>&copy; 2022 Kathryn Werner.</p>
     </div>
   </footer>
-
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 

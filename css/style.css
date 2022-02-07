@@ -475,29 +475,16 @@ nav>ul>li>a {
   margin-right: 10%;
   margin-bottom: 40px;
 
-/* arrow */
-.arrow {
-  box-sizing: border-box;
-  height: 3.8vw;
-  width: 3.85vw;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 0px 1px 1px 0px;
-  transform: rotate(45deg);
-  transition: border-width 150ms ease-in-out;
-  margin: 0;
+  /* margin: 0 auto; */
 }
 
-.arrow:hover {
-  border-bottom-width: 2.5px;
-  border-right-width: 2.5px;
+.heroimage {
+  max-width: 60%;
+  max-height: 550px;
 }
 
-.arrowcontainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 18vh;
+.highlight {
+  font-size: 1em;
 }
 
 #full {

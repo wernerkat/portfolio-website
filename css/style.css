@@ -27,11 +27,15 @@ body {
   line-height: 1.4;
 
   /* Sets the line-height to 1.6 * the font-size */
-  color: #000000;
+  color: #000;
+
   /* Adds 10px to top & bottom */
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   line-height: 1.4;
 }
 
@@ -51,14 +55,14 @@ h3 {
 }
 
 h4 {
-  font-size: 1.0em;
+  font-size: 1em;
   font-weight: 500;
-  margin-top: 0
+  margin-top: 0;
 }
 
 main {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 img {
@@ -67,15 +71,16 @@ img {
 
 /* buttons and links */
 a {
-  color: #000000;
+  color: #000;
   text-decoration: none;
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .current:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 0.4em;
+
   /* Underlining when hovering over a link */
 }
 

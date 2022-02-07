@@ -128,17 +128,43 @@ a:active {
   text-decoration: underline;
 }
 
+.herolink {
+  font-weight: 500;
+  color: #c73388;
+  background-color: #fff;
+  text-align: left;
+  font-size: 1.3em;
+}
+
+.herolink:hover {
+  text-decoration: underline;
+}
+
+.hero2link {
+  font-weight: 500;
+  color: #f85386;
+  background-color: #fff;
+  text-align: left;
+  font-size: 1.3em;
+}
+
+.hero2link:hover {
+  text-decoration: underline;
+}
+
 .button {
   display: inline-block;
+
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #fff;
+  color: #000;
+
   /* needed to override the default link color */
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 700;
   padding: 10px;
-  transition: .3s opacity;
-  border: 1.75px solid #000000;
+  transition: 0.3s opacity;
+  border: 1.75px solid #000;
   border-radius: 8px;
 }
 

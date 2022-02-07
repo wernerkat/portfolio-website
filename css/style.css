@@ -854,10 +854,15 @@ ipad devices (767px and smaller)
     display: grid;
   }
 
+  .orbitcase {
+    margin-left: 0;
+  }
+
   /* orbit flexbox stack */
   .flexbox-item {
     display: grid;
     width: 100%;
+    justify-content: start;
   }
 
   nav {

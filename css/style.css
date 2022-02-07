@@ -455,6 +455,15 @@ nav>ul>li>a {
   margin-left: 20px;
 }
 
+.title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+
 .row {
   margin-top: 20px;
   margin-bottom: 60px;

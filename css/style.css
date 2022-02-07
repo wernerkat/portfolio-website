@@ -291,13 +291,68 @@ header {
   z-index: 300;
 }
 
+/* The pulse progress container (background) */
+.progress-container {
+  width: 100%;
+  height: 3px;
+  background: #fff;
+}
+
+/* The pulse progress bar (scroll indicator) */
+.pulseprogress-bar {
+  height: 3px;
+  background: #779fbf;
+  width: 0%;
+}
+
+/* The alocal progress bar (scroll indicator) */
+.alocalprogress-bar {
+  height: 3px;
+  background: #60c3d8;
+  width: 0%;
+}
+
+/* The alocal progress bar (scroll indicator) */
+.orbitprogress-bar {
+  height: 3px;
+  background: #5f62f4;
+  width: 0%;
+}
+
+.homebackgroundcolor {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.contact_main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contactbackgroundcolor {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.linkin_button-div {
+  margin-top: 35px;
+}
+
+.page-layout {
+  background-color: #fff;
+  overflow: hidden;
+}
 
 /* navigation */
-nav>ul {
+nav > ul {
   list-style-type: none;
   display: flex;
   padding: 0;
   margin: 0;
+
   /* remove bullets and padding from list */
 }
 

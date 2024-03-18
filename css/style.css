@@ -527,13 +527,14 @@ nav > ul > li > a {
 
 .personallink {
   font-family: "Nunito", sans-serif;
-  color: #5ea130;
+  text-decoration: underline;
   background-color: #fff;
 }
 
 .personallink:hover {
   font-family: "Nunito", sans-serif;
-  text-decoration: underline;
+  color: #31650e;
+ 
 }
 
 .story {

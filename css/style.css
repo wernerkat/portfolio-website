@@ -127,31 +127,19 @@ a:active {
   font-family: "Nunito", sans-serif;
   display: inline-block;
   color: #fff;
-  background-color: #3a3a3a;
+  background-color: #000000;
   font-size: 1em;
   font-weight: 700;
-  padding: 0.7em 1.8em;
-  text-decoration: none;
-  border-radius: 0.4em;
-  border-top: 0.1em solid #000;
-  border-left: 0.1em solid #000;
-  border-right: 0.1em solid #000;
-  border-bottom: 0.3em solid #000;
-  box-shadow: 0 2px 3px #ccc;
-  position: relative;
-  top: 0;
-  transition: top ease 0.1s;
-  z-index: 1;
+
 }
 
 .resumebutton:hover {
   font-family: "Nunito", sans-serif;
   background-color: #3a3a3a;
-  border-bottom: 0.45em solid #000;
+  border-bottom: 0.1em solid #000;
   border-top: 0.1em solid #000;
   border-left: 0.1em solid #000;
   border-right: 0.1em solid #000;
-  top: -2.5px;
 }
 
 .uibutton {

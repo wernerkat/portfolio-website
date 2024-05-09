@@ -8,7 +8,7 @@ orbit purple: #5F62F4
 Fonts Used:
 Nunito
 Primary: 300 Regular
-Futura
+Playfair
 Primary: Regular 400
 Secondary:  Medium 500
 Tertiary: Bold 700
@@ -22,7 +22,7 @@ Last: Black 900
 
 body {
   background-color: #fff;
-  font-family: 'Futura', serif;
+  font-family: 'Playfair', serif;
   font-size: 16px;
 
   /* Sets the font size to 16px */

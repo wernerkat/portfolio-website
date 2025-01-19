@@ -24,11 +24,14 @@ export default function Page() {
                 yOffset={8}
                 text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
               />
-              <BlurFadeText
-                className="max-w-[600px] md:text-xl"
-                delay={BLUR_FADE_DELAY}
-                text={DATA.description}
-              />
+
+              <BlurFade delay={BLUR_FADE_DELAY * 4}>
+                <Markdown className="prose max-w-[600px] md:text-xl">
+                  {DATA.description}
+                </Markdown>
+              </BlurFade>
+
+              {/* </BlurFadeText> */}
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">

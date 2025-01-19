@@ -72,16 +72,15 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "EnergyCAP",
+      href: "https://energycap.com",
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
+      location: "Denver",
+      title: "Manager of Design and UX",
       logoUrl: "/atomic.png",
       start: "May 2021",
       end: "Oct 2022",
-      description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+      description: "Led",
     },
     {
       company: "Shopify",
@@ -95,30 +94,7 @@ export const DATA = {
       description:
         "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
     },
-    {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
-      badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
-      description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
+
     {
       company: "Lime",
       href: "https://li.me/",
@@ -146,20 +122,20 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Buildspace",
+      school: "CareerFoundry",
       href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
+      degree: "Product Design",
       logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
+      start: "2020",
+      end: "2021",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
+      school: "University of Wisconsin Oshkosh",
+      href: "https://www.uwosh.edu/",
+      degree: "Bachelor of Fine Arts - Graphic Design ",
       logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
+      start: "2008",
+      end: "2013",
     },
     {
       school: "Wilfrid Laurier University",

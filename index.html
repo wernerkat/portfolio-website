@@ -27,6 +27,13 @@
       crossorigin="anonymous"
     ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      @media (max-width: 768px) {
+        .responsive-hero {
+          flex-direction: column !important;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -40,9 +47,10 @@
       </div>
     </div>
     <div
+      class="responsive-hero"
       style="
     display: flex; 
-    flex-direction: row-reverse; 
+    flex-direction: row; 
     justify-content: center;
     align-items: center; 
     background-color: #ffffff; 
@@ -54,6 +62,12 @@
   
   "
     >
+      <img
+        src="img/postithero.svg"
+        class="heroimage"
+        style="width: fit-content"
+        alt="girl with post-its"
+      />
       <div
         class="herobox"
         style="display: flex; flex-direction: column; justify-content: center; align-items: center;"
@@ -66,12 +80,6 @@
           Please check back soon!
         </p>
       </div>
-      <img
-        src="img/postithero.svg"
-        class="heroimage"
-        style="width: fit-content"
-        alt="girl with post-its"
-      />
     </div>
 
     <script src="js/scripts.js"></script>

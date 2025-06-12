@@ -1,3 +1,4 @@
+import { CaseStudyType, work } from "@/data/work";
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 
@@ -34,4 +35,15 @@ export function formatDate(date: string) {
     const yearsAgo = Math.floor(daysAgo / 365);
     return `${fullDate} (${yearsAgo}y ago)`;
   }
+}
+
+
+export const getCaseStudyBySlug = async (slug: string) => {
+  const caseStudy =  work.find(
+    (caseStudy: CaseStudyType) => caseStudy.href === `/${slug}`
+  );
+  if (!caseStudy) {
+    return null;
+  }
+  return caseStudy;
 }

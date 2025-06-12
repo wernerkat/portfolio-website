@@ -2,11 +2,11 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  name: "Kathryn Werner",
+  initials: "KW",
+  url: "https://www.kathrynwernerux.com",
+  location: "Denver, CO",
+  locationLink: "https://www.google.com/maps/place/denver",
   description:
     "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
   summary:
@@ -27,7 +27,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/work", icon: NotebookIcon, label: "Work" },
   ],
   contact: {
     email: "hello@example.com",
@@ -311,7 +311,8 @@ export const DATA = {
         "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      mlh:
+        "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
     {
@@ -322,7 +323,8 @@ export const DATA = {
         "Developed a mobile application which delivers university campus wide events in real time to all students.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      mlh:
+        "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
     {
@@ -474,7 +476,8 @@ export const DATA = {
         {
           title: "Article",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://syncedreview.com/2017/06/26/global-ai-hackathon-in-toronto/",
+          href:
+            "https://syncedreview.com/2017/06/26/global-ai-hackathon-in-toronto/",
         },
         {
           title: "Source",
@@ -522,7 +525,8 @@ export const DATA = {
         {
           title: "Medium Article",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://medium.com/make-school/the-winners-of-make-schools-student-app-competition-2017-a6b0e72f190a",
+          href:
+            "https://medium.com/make-school/the-winners-of-make-schools-student-app-competition-2017-a6b0e72f190a",
         },
         {
           title: "Devpost",

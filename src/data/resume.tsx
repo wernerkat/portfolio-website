@@ -3,10 +3,10 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Kathryn Werner",
-  initials: "DV",
-  url: "https://dillion.io",
+  initials: "KW",
+  url: "https://www.kathrynwernerux.com",
   location: "Denver, CO",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/denver",
   description:
     "Product Design @ [EnergyCAP](https://www.energycap.com/) in Denver",
   summary:
@@ -27,7 +27,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/work", icon: NotebookIcon, label: "Work" },
   ],
   contact: {
     email: "hello@kathrynwernerux.com",

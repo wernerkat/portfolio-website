@@ -3,7 +3,7 @@ import { getBlogPosts } from "@/data/blog";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Blog",
+  title: "Work",
   description: "My thoughts on software development, life, and more.",
 };
 
@@ -30,7 +30,7 @@ export default async function BlogPage() {
           <BlurFade delay={BLUR_FADE_DELAY * 2 + id * 0.05} key={post.slug}>
             <Link
               className="flex flex-col space-y-1 mb-4"
-              href={`/blog/${post.slug}`}
+              href={`/work/${post.slug}`}
             >
               <div className="w-full flex flex-col">
                 <p className="tracking-tight">{post.metadata.title}</p>

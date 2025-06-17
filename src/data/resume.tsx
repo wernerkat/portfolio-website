@@ -33,10 +33,10 @@ export const DATA = {
     email: "hello@kathrynwernerux.com",
     tel: "+123456789",
     social: {
-      GitHub: {
-        name: "GitHub",
+      Miro: {
+        name: "Miro",
         url: "https://dub.sh/dillion-github",
-        icon: Icons.github,
+        icon: Icons.miro,
 
         navbar: true,
       },

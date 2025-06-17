@@ -8,7 +8,7 @@ export const DATA = {
   location: "Denver, CO",
   locationLink: "https://www.google.com/maps/place/denver",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Product Design @ [EnergyCAP](https://www.energycap.com/) in Denver",
   summary:
     "I am currently the Manager of Design and User Experience at EnergyCAP, where I lead the UX team at the frontier of our business (UtilityManagement, CarbonHub and SmartAnalytics). As a designer, I brought CarbonHub to market, led a rebrand for our UI and agonized over details of dozens of other critical projects. <br> In lots of parts of my life, I'm a generalist. I'm good at helping teams be more ambitious together. To imagine novel solutions, to ship higher quality products, and most importantly—to have fun through it all",
   avatarUrl: "/portraitds.png",
@@ -30,7 +30,7 @@ export const DATA = {
     { href: "/work", icon: NotebookIcon, label: "Work" },
   ],
   contact: {
-    email: "hello@example.com",
+    email: "hello@kathrynwernerux.com",
     tel: "+123456789",
     social: {
       GitHub: {

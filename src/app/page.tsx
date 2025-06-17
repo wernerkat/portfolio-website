@@ -145,7 +145,7 @@ export default function Page() {
                   sections={work.sections}
                   key={work.title}
                   title={work.title}
-                  briefDescription={work.briefDescription}
+                  summary={work.summary}
                   mainImg={work.mainImg}
                   tags={work.tags}
                 />

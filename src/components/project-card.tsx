@@ -21,7 +21,7 @@ export function ProjectCard({
   tags,
   href,
   mainImg,
-  briefDescription,
+  summary,
   className,
 }: Props) {
   return (
@@ -58,7 +58,7 @@ export function ProjectCard({
             <CardTitle className="mt-2 text-base">{title}</CardTitle>
 
             <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
-              {briefDescription}
+              {summary}
             </Markdown>
           </div>
         </CardHeader>

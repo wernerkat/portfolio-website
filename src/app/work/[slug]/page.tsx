@@ -77,6 +77,7 @@ export default async function WorkCaseStudy({
         <div key={index} className="space-y-4 mb-16">
           <h2 className=" uppercase">{section.sectionDescription}</h2>
           <h2 className="text-xl font-bold">{section.sectionTitle}</h2>
+
           <div className="prose dark:prose-invert max-w-none">
             {section.body.map((content, idx) => (
               <div key={idx}>
@@ -95,7 +96,7 @@ export default async function WorkCaseStudy({
               </div>
             ))}
           </div>
-          {section.img && (
+          {section.img && section.imgLocation === "bottom" && (
             <Image
               src={section.img}
               alt={section.imgAlt}

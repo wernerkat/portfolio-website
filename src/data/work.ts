@@ -17,17 +17,18 @@ export type CaseStudyType = {
   sections: CaseStudySection[];
   href: string;
   mainImg: any;
-  briefDescription: string;
+  summary: string;
   tags?: string[];
 };
 
 export const work: CaseStudyType[] = [
+  // Carbon Hub Case Study
   {
     title: "Carbon Hub Case Study",
     href: "/carbon-hub",
     mainImg:
       "https://random-image-pepebigotes.vercel.app/api/random-image?seed=3",
-    briefDescription:
+    summary:
       "Today, the universal standard is to count them by scopes. Scope 1 and 2 are counted by energy we directly purchase (electricity and gas are common. Sope 3 is everything else.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
     sections: [
@@ -188,6 +189,128 @@ export const work: CaseStudyType[] = [
         ],
         img:
           "https://random-image-pepebigotes.vercel.app/api/random-image?seed=10",
+        imgAlt: "Research Image",
+        imgLocation: "bottom",
+      },
+    ],
+  },
+  // Budget Feature Case Study
+  {
+    title: "Budget Feature Case Study",
+    href: "/budget-feature",
+    mainImg:
+      "https://random-image-pepebigotes.vercel.app/api/random-image?seed=57",
+    summary:
+      "The Budget Feature Case Study explores the development of a new budgeting tool that allows users to set and track their budgets effectively, providing insights into their spending habits and helping them achieve financial goals.",
+    tags: ["Figma", "Research", "Energy"],
+    sections: [
+      // Section 1
+      {
+        sectionTitle:
+          "Automating Budgeting Feature for Enhanced User Flexibility",
+        sectionDescription: "Background",
+
+        body: [
+          {
+            bodyDescription:
+              "As the Product Manager leading the team at XYZ Company, we undertook a project to create an automated budgeting feature based on a popular budget spreadsheet extensively used by our customers. The new feature aimed to automatically generate a budget using utility data from a previous year of the user's choice, providing them with the flexibility to manipulate the data and create a revised version of their budget. With a tight timeline of two sprints, we delved into customer interviews to gather insights from those specifically requesting this functionality.",
+            bulletPoints: null,
+          },
+        ],
+        img:
+          "https://random-image-pepebigotes.vercel.app/api/random-image?seed=2",
+        imgAlt: "Budget Case Study Image",
+        imgLocation: "bottom",
+      },
+      // Section 2
+      {
+        sectionTitle:
+          "Enhancing Data Output Flexibility for Seamless Manipulation",
+        sectionDescription: "Limitations",
+
+        body: [
+          {
+            bodyDescription:
+              "While developing the automated budgeting feature at XYZ Company, a key consideration was ensuring that the output data could be easily manipulated by users. Recognizing the importance of user-friendly formats, we implemented a solution where the generated data was readily available in spreadsheet format. This approach empowered our users to make quick edits, perform detailed analysis, and create new budget versions with ease.",
+            bulletPoints: null,
+          },
+        ],
+        img:
+          "https://random-image-pepebigotes.vercel.app/api/random-image?seed=7",
+        imgAlt: "Limitation Image",
+        imgLocation: "bottom",
+      },
+
+      // Section 3
+      {
+        sectionTitle: "Uncovering User Needs Through Customer Interviews",
+        sectionDescription: "Research",
+
+        body: [
+          {
+            bodyDescription:
+              "In my role as Product Manager, I spearheaded the research phase by conducting in-depth customer interviews with individuals who had been vocal about the need for an automated budgeting feature. These interviews were instrumental in understanding the pain points and specific requirements of our target users. By empathizing with their challenges and listening to their feedback, we gained valuable insights into how they currently managed their budgets using spreadsheets and the limitations they faced.",
+            bulletPoints: null,
+          },
+          {
+            bodyDescription:
+              "The customer interviews revealed that many users found the manual process of creating and updating budgets in spreadsheets time-consuming and prone to errors. They expressed a strong desire for a more efficient solution that could automate repetitive tasks while still allowing them the flexibility to adjust figures based on their unique circumstances. Additionally, users emphasized the importance of being able to compare different budget versions easily and track changes over time.",
+            bulletPoints: null,
+          },
+        ],
+        img:
+          "https://random-image-pepebigotes.vercel.app/api/random-image?seed=8",
+        imgAlt: "Research Image",
+        imgLocation: "bottom",
+      },
+
+      // Section 4
+      {
+        sectionTitle: "Design Solution for Scalability and User Experience",
+        sectionDescription: "Design and development",
+
+        body: [
+          {
+            bodyDescription:
+              "During development collaboration and testing, it was discovered that customers with very large organizations experienced longer processing times when generating budgets, causing potential concerns. To address this challenge, we implemented a design solution aimed at managing user expectations. Through transparent communication, we educated customers that extended output times were due to the automated generation process rather than system failures. This proactive approach not only reassured users but also set accurate expectations about budgeting completion times.",
+            bulletPoints: null,
+          },
+        ],
+        img:
+          "https://random-image-pepebigotes.vercel.app/api/random-image?seed=83",
+        imgAlt: "Design and Development Image",
+        imgLocation: "bottom",
+      },
+
+      // Section 5
+      {
+        sectionTitle: "Driving User Engagement and Business Impact",
+        sectionDescription: "Results/Impact",
+
+        body: [
+          {
+            bodyDescription:
+              "Following the successful implementation of the automated budgeting feature at XYZ Company, we witnessed significant improvements in user engagement metrics:",
+            bulletPoints: [
+              `<strong> Reduced manual budget creation time by 45%</strong> , allowing users to focus on strategic financial planning rather than administrative tasks.`,
+              "Increased user retention by 30% among customers actively utilizing the new feature.",
+              "Decreased support tickets related to budget errors by 25% due to improved accuracy and automation.",
+              "Boosted overall customer satisfaction scores by 20 points through positive feedback on ease of use and enhanced functionality.",
+            ],
+          },
+          {
+            bodyDescription:
+              "Moreover, from a business perspective, we observed a 15% uptick in premium subscriptions attributed to the added value provided by the automated budgeting feature. This translated into $100K in additional revenue within six months of launch.",
+            bulletPoints: null,
+          },
+          {
+            bodyDescription:
+              "By leveraging agile methodologies, customer-centric design principles, and close collaboration across teams, we successfully delivered a transformative solution that not only met user expectations but also drove tangible business outcomes at XYZ Company.",
+            bulletPoints: null,
+          },
+        ],
+        img:
+          "https://random-image-pepebigotes.vercel.app/api/random-image?seed=6",
         imgAlt: "Research Image",
         imgLocation: "bottom",
       },

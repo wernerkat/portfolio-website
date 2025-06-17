@@ -36,14 +36,16 @@ export default function WorkLayout({
     <div>
       {children}
 
-      <div className="w-screen space-y-8 absolute bottom-0 left-0 py-8 pb-24 bg-[#f6b9886b] backdrop-blur-lg ">
-        <h4 className="font-medium uppercase text-center">Up Next</h4>
-        <div className="grid grid-cols-2 gap-4 max-w-3xl mx-auto overflow-x-auto">
+      <div className="w-screen flex flex-col gap-4 justify-center items-center absolute bottom-0 left-0 py-8 pb-28">
+        <h4 className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm  ">
+          Up Next
+        </h4>
+        <div className="grid grid-cols-2 gap-4 max-w-3xl mx-auto overflow-x-auto py-2 px-10">
           {suggested.map((item, i) => (
             <Link
               href={`/work${item.href}`}
               key={i}
-              className="cursor-pointer hover:shadow-2xl"
+              className="cursor-pointer hover:shadow-lg transition-shadow"
             >
               <Card className="border p-4  space-y-2">
                 <h3 className="font-medium">{item.title}</h3>

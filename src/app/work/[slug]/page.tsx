@@ -68,7 +68,7 @@ export default async function WorkCaseStudy({
             alt={caseStudy.title}
             width={500}
             height={300}
-            className="w-full overflow-hidden object-cover object-center"
+            className="w-full overflow-hidden object-cover object-center rounded-xl"
           />
         </div>
       )}
@@ -102,7 +102,7 @@ export default async function WorkCaseStudy({
               alt={section.imgAlt}
               width={500}
               height={300}
-              className="w-full overflow-hidden object-cover object-center"
+              className="w-full overflow-hidden object-cover object-center rounded-xl"
             />
           )}
         </div>

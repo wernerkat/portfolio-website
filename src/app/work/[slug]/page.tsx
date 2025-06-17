@@ -57,7 +57,7 @@ export default async function WorkCaseStudy({
   }
 
   return (
-    <section className="flex flex-col px-4 my-8">
+    <section className="flex flex-col px-4 my-8 mb-20">
       <h1 className="font-medium text-3xl tracking-tighter">
         {caseStudy.title}
       </h1>

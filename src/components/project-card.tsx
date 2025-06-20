@@ -14,6 +14,7 @@ import Markdown from "react-markdown";
 
 interface Props extends CaseStudyType {
   className?: string;
+  height?: number;
 }
 
 export function ProjectCard({
@@ -27,12 +28,12 @@ export function ProjectCard({
   return (
     <Card
       className={
-        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full "
+        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out  min-h-[19rem] h-full"
       }
     >
       <Link
         href={`/work${href}` || "#"}
-        className={cn("block hover:cursor-pointer", className)}
+        className={cn("block hover:cursor-pointer h-full", className)}
       >
         {/* {video && (
           <video
@@ -50,14 +51,14 @@ export function ProjectCard({
             alt={title}
             width={500}
             height={300}
-            className="h-40 w-full overflow-hidden object-cover object-center"
+            className="min-h-40 max-h-72 w-full overflow-hidden object-cover object-center"
           />
         )}
         <CardHeader className="px-2 pb-2">
           <div className="space-y-1">
             <CardTitle className="mt-2 text-base">{title}</CardTitle>
 
-            <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
+            <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert line-clamp-3">
               {summary}
             </Markdown>
           </div>

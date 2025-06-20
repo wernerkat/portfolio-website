@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "sonner";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -66,6 +67,7 @@ export default function RootLayout({
             {children}
             <Navbar />
           </TooltipProvider>
+          <Toaster richColors />
         </ThemeProvider>
       </body>
     </html>

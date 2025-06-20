@@ -1,3 +1,4 @@
+import CopyEmailButton from "@/components/copy-email-button";
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -165,16 +166,14 @@ export default function Page() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Get in Touch
               </h2>
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
+              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed flex justify-center items-center gap-2">
                 <Link
-                  href={DATA.contact.social.X.url}
+                  href={`mailto:${DATA.contact.email}`}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on twitter
+                  {DATA.contact.email}
                 </Link>
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                <CopyEmailButton email={DATA.contact.email} />
               </p>
             </div>
           </BlurFade>

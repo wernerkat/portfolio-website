@@ -26,7 +26,7 @@ export default async function WorkPage() {
             </div>
           </div>
         </BlurFade>
-        <div className="grid grid-cols-1 gap-3  max-w-[800px] mx-auto">
+        <div className="grid grid-cols-1 gap-12  max-w-[800px] mx-auto">
           {work.map((work, id) => (
             <BlurFade key={work.title} delay={BLUR_FADE_DELAY * 12 + id * 0.05}>
               <ProjectCard
